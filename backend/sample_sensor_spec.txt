@@ -1,0 +1,30 @@
+Product Specification: X200 PRESSURE SENSOR
+SKU: X200-24
+Manufacturer: SensorTech Industries
+
+Category: Pressure Sensor
+ETIM Code: XXXX
+
+Compliance & Certifications
+- RoHS Compliant
+- REACH Certified
+- UL Certification (Pending Review / Needs Verification)
+
+--- Page 2 ---
+Technical Specifications
+IP Rating: IP65
+Material: Stainless Steel
+Operating Temperature: -20 to 80 °C
+
+--- Page 3 ---
+Performance Parameters
+Rated Voltage: 24 V
+
+--- Page 4 ---
+Maximum pressure: 500 bar
+
+--- Page 5 ---
+Product Family & Alternatives
+Similar Model: X201
+Legacy version / Potential Duplicate: X250
+Compatible Controller: X500
