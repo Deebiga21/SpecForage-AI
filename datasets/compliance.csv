@@ -1,0 +1,121 @@
+product_id,standard,standard_version,status,evidence_found,evidence_text,source_page,confidence,verification_status
+PROD-001,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-001,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-001,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-001,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-002,CE,Latest,Certified,Yes,Complies with CE,5,99,Passed
+PROD-002,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-002,UL,Latest,Certified,Yes,Complies with UL,5,99,Passed
+PROD-002,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-003,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-003,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-003,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-003,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,6,99,Passed
+PROD-004,CE,Latest,Certified,Yes,Complies with CE,6,99,Passed
+PROD-004,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-004,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-004,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-005,CE,Latest,Certified,Yes,Complies with CE,6,99,Passed
+PROD-005,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-005,UL,Latest,Certified,Yes,Complies with UL,7,99,Passed
+PROD-005,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,5,99,Passed
+PROD-006,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-006,RoHS,Latest,Certified,Yes,Complies with RoHS,6,99,Passed
+PROD-006,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-006,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-007,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-007,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-007,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-007,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,6,99,Passed
+PROD-008,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-008,RoHS,Latest,Certified,Yes,Complies with RoHS,7,99,Passed
+PROD-008,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-008,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-009,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-009,RoHS,Latest,Certified,Yes,Complies with RoHS,6,99,Passed
+PROD-009,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-009,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-010,CE,Latest,Certified,Yes,Complies with CE,5,99,Passed
+PROD-010,RoHS,Latest,Certified,Yes,Complies with RoHS,7,99,Passed
+PROD-010,UL,Latest,Certified,Yes,Complies with UL,7,99,Passed
+PROD-010,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-011,CE,Latest,Certified,Yes,Complies with CE,5,99,Passed
+PROD-011,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-011,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-011,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,5,99,Passed
+PROD-012,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-012,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-012,UL,Latest,Certified,Yes,Complies with UL,5,99,Passed
+PROD-012,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,6,99,Passed
+PROD-013,CE,Latest,Certified,Yes,Complies with CE,5,99,Passed
+PROD-013,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-013,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-013,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-014,CE,Latest,Certified,Yes,Complies with CE,6,99,Passed
+PROD-014,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-014,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-014,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-015,CE,Latest,Certified,Yes,Complies with CE,5,99,Passed
+PROD-015,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-015,UL,Latest,Missing,No,,,0,Failed
+PROD-015,IEC 60947,Latest,Missing,No,,,0,Failed
+PROD-016,CE,Latest,Certified,Yes,Complies with CE,6,99,Passed
+PROD-016,RoHS,Latest,Certified,Yes,Complies with RoHS,6,99,Passed
+PROD-016,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-016,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-017,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-017,RoHS,Latest,Certified,Yes,Complies with RoHS,7,99,Passed
+PROD-017,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-017,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-018,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-018,RoHS,Latest,Certified,Yes,Complies with RoHS,7,99,Passed
+PROD-018,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-018,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-019,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-019,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-019,UL,Latest,Certified,Yes,Complies with UL,5,99,Passed
+PROD-019,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,5,99,Passed
+PROD-020,CE,Latest,Certified,Yes,Complies with CE,5,99,Passed
+PROD-020,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-020,UL,Latest,Certified,Yes,Complies with UL,5,99,Passed
+PROD-020,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-021,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-021,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-021,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-021,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-022,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-022,RoHS,Latest,Certified,Yes,Complies with RoHS,6,99,Passed
+PROD-022,UL,Latest,Certified,Yes,Complies with UL,5,99,Passed
+PROD-022,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-023,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-023,RoHS,Latest,Certified,Yes,Complies with RoHS,7,99,Passed
+PROD-023,UL,Latest,Missing,No,,,0,Failed
+PROD-023,IEC 60947,Latest,Missing,No,,,0,Failed
+PROD-024,CE,Latest,Certified,Yes,Complies with CE,8,99,Passed
+PROD-024,RoHS,Latest,Certified,Yes,Complies with RoHS,8,99,Passed
+PROD-024,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-024,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,7,99,Passed
+PROD-025,CE,Latest,Certified,Yes,Complies with CE,6,99,Passed
+PROD-025,RoHS,Latest,Certified,Yes,Complies with RoHS,6,99,Passed
+PROD-025,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-025,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,8,99,Passed
+PROD-026,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-026,RoHS,Latest,Certified,Yes,Complies with RoHS,7,99,Passed
+PROD-026,UL,Latest,Certified,Yes,Complies with UL,5,99,Passed
+PROD-026,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,6,99,Passed
+PROD-027,CE,Latest,Certified,Yes,Complies with CE,6,99,Passed
+PROD-027,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-027,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-027,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,6,99,Passed
+PROD-028,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-028,RoHS,Latest,Certified,Yes,Complies with RoHS,7,99,Passed
+PROD-028,UL,Latest,Certified,Yes,Complies with UL,8,99,Passed
+PROD-028,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,6,99,Passed
+PROD-029,CE,Latest,Certified,Yes,Complies with CE,7,99,Passed
+PROD-029,RoHS,Latest,Certified,Yes,Complies with RoHS,5,99,Passed
+PROD-029,UL,Latest,Certified,Yes,Complies with UL,6,99,Passed
+PROD-029,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,5,99,Passed
+PROD-030,CE,Latest,Certified,Yes,Complies with CE,5,99,Passed
+PROD-030,RoHS,Latest,Certified,Yes,Complies with RoHS,6,99,Passed
+PROD-030,UL,Latest,Certified,Yes,Complies with UL,7,99,Passed
+PROD-030,IEC 60947,Latest,Certified,Yes,Complies with IEC 60947,6,99,Passed

@@ -1,0 +1,41 @@
+category,attribute_name,unit,required,description
+Circuit Breakers,Rated Voltage,Various,Yes,Essential specification: Rated Voltage
+Circuit Breakers,Rated Current,Various,Yes,Essential specification: Rated Current
+Circuit Breakers,Number of Poles,Various,Yes,Essential specification: Number of Poles
+Circuit Breakers,Breaking Capacity,Various,Yes,Essential specification: Breaking Capacity
+Terminal Blocks,Rated Voltage,Various,Yes,Essential specification: Rated Voltage
+Terminal Blocks,Rated Current,Various,Yes,Essential specification: Rated Current
+Terminal Blocks,Cross Section,Various,Yes,Essential specification: Cross Section
+Terminal Blocks,Mounting Type,Various,Yes,Essential specification: Mounting Type
+Pressure Sensors,Pressure Range,Various,Yes,Essential specification: Pressure Range
+Pressure Sensors,Output Type,Various,Yes,Essential specification: Output Type
+Pressure Sensors,Accuracy,Various,Yes,Essential specification: Accuracy
+Pressure Sensors,Process Connection,Various,Yes,Essential specification: Process Connection
+Temperature Sensors,Temperature Range,Various,Yes,Essential specification: Temperature Range
+Temperature Sensors,Sensor Type,Various,Yes,Essential specification: Sensor Type
+Temperature Sensors,Accuracy,Various,Yes,Essential specification: Accuracy
+Temperature Sensors,Connection,Various,Yes,Essential specification: Connection
+Industrial Connectors,Rated Voltage,Various,Yes,Essential specification: Rated Voltage
+Industrial Connectors,Rated Current,Various,Yes,Essential specification: Rated Current
+Industrial Connectors,IP Rating,Various,Yes,Essential specification: IP Rating
+Industrial Connectors,Number of Pins,Various,Yes,Essential specification: Number of Pins
+Switches,Contact Configuration,Various,Yes,Essential specification: Contact Configuration
+Switches,Rated Voltage,Various,Yes,Essential specification: Rated Voltage
+Switches,Rated Current,Various,Yes,Essential specification: Rated Current
+Switches,IP Rating,Various,Yes,Essential specification: IP Rating
+Relays,Coil Voltage,Various,Yes,Essential specification: Coil Voltage
+Relays,Contact Rating,Various,Yes,Essential specification: Contact Rating
+Relays,Contact Configuration,Various,Yes,Essential specification: Contact Configuration
+Relays,Mounting Type,Various,Yes,Essential specification: Mounting Type
+Contactors,Coil Voltage,Various,Yes,Essential specification: Coil Voltage
+Contactors,Rated Current,Various,Yes,Essential specification: Rated Current
+Contactors,Number of Poles,Various,Yes,Essential specification: Number of Poles
+Contactors,Auxiliary Contacts,Various,Yes,Essential specification: Auxiliary Contacts
+Industrial Controllers,Supply Voltage,Various,Yes,Essential specification: Supply Voltage
+Industrial Controllers,Number of Inputs,Various,Yes,Essential specification: Number of Inputs
+Industrial Controllers,Number of Outputs,Various,Yes,Essential specification: Number of Outputs
+Industrial Controllers,Communication Protocol,Various,Yes,Essential specification: Communication Protocol
+Power Supplies,Input Voltage,Various,Yes,Essential specification: Input Voltage
+Power Supplies,Output Voltage,Various,Yes,Essential specification: Output Voltage
+Power Supplies,Output Current,Various,Yes,Essential specification: Output Current
+Power Supplies,Power Rating,Various,Yes,Essential specification: Power Rating

@@ -1,0 +1,31 @@
+product_id,category,subcategory,etim_class,etim_description,primary_class,classification_confidence,alternative_class_1,alternative_confidence_1,alternative_class_2,alternative_confidence_2,classification_evidence
+PROD-001,Circuit Breakers,Industrial,EC006499,ETIM Class for Circuit Breakers,Circuit Breakers,98,Alt Circuit Breakers,85,Other Circuit Breakers,60,Based on extracted specifications
+PROD-002,Circuit Breakers,Industrial,EC003556,ETIM Class for Circuit Breakers,Circuit Breakers,98,Alt Circuit Breakers,85,Other Circuit Breakers,60,Based on extracted specifications
+PROD-003,Circuit Breakers,Industrial,EC005445,ETIM Class for Circuit Breakers,Circuit Breakers,98,Alt Circuit Breakers,85,Other Circuit Breakers,60,Based on extracted specifications
+PROD-004,Terminal Blocks,Industrial,EC009980,ETIM Class for Terminal Blocks,Terminal Blocks,98,Alt Terminal Blocks,85,Other Terminal Blocks,60,Based on extracted specifications
+PROD-005,Terminal Blocks,Industrial,EC002897,ETIM Class for Terminal Blocks,Terminal Blocks,98,Alt Terminal Blocks,85,Other Terminal Blocks,60,Based on extracted specifications
+PROD-006,Terminal Blocks,Industrial,EC004745,ETIM Class for Terminal Blocks,Terminal Blocks,98,Alt Terminal Blocks,85,Other Terminal Blocks,60,Based on extracted specifications
+PROD-007,Pressure Sensors,Industrial,EC005499,ETIM Class for Pressure Sensors,Pressure Sensors,98,Alt Pressure Sensors,85,Other Pressure Sensors,60,Based on extracted specifications
+PROD-008,Pressure Sensors,Industrial,EC005975,ETIM Class for Pressure Sensors,Pressure Sensors,98,Alt Pressure Sensors,85,Other Pressure Sensors,60,Based on extracted specifications
+PROD-009,Pressure Sensors,Industrial,EC007469,ETIM Class for Pressure Sensors,Pressure Sensors,98,Alt Pressure Sensors,85,Other Pressure Sensors,60,Based on extracted specifications
+PROD-010,Temperature Sensors,Industrial,EC002553,ETIM Class for Temperature Sensors,Temperature Sensors,98,Alt Temperature Sensors,85,Other Temperature Sensors,60,Based on extracted specifications
+PROD-011,Temperature Sensors,Industrial,EC004946,ETIM Class for Temperature Sensors,Temperature Sensors,98,Alt Temperature Sensors,85,Other Temperature Sensors,60,Based on extracted specifications
+PROD-012,Temperature Sensors,Industrial,EC003434,ETIM Class for Temperature Sensors,Temperature Sensors,98,Alt Temperature Sensors,85,Other Temperature Sensors,60,Based on extracted specifications
+PROD-013,Industrial Connectors,Industrial,EC007997,ETIM Class for Industrial Connectors,Industrial Connectors,98,Alt Industrial Connectors,85,Other Industrial Connectors,60,Based on extracted specifications
+PROD-014,Industrial Connectors,Industrial,EC002703,ETIM Class for Industrial Connectors,Industrial Connectors,98,Alt Industrial Connectors,85,Other Industrial Connectors,60,Based on extracted specifications
+PROD-015,Industrial Connectors,Industrial,EC004827,ETIM Class for Industrial Connectors,Industrial Connectors,98,Alt Industrial Connectors,85,Other Industrial Connectors,60,Based on extracted specifications
+PROD-016,Switches,Industrial,EC009835,ETIM Class for Switches,Switches,98,Alt Switches,85,Other Switches,60,Based on extracted specifications
+PROD-017,Switches,Industrial,EC006590,ETIM Class for Switches,Switches,98,Alt Switches,85,Other Switches,60,Based on extracted specifications
+PROD-018,Switches,Industrial,EC002517,ETIM Class for Switches,Switches,98,Alt Switches,85,Other Switches,60,Based on extracted specifications
+PROD-019,Relays,Industrial,EC009412,ETIM Class for Relays,Relays,98,Alt Relays,85,Other Relays,60,Based on extracted specifications
+PROD-020,Relays,Industrial,EC006171,ETIM Class for Relays,Relays,98,Alt Relays,85,Other Relays,60,Based on extracted specifications
+PROD-021,Relays,Industrial,EC004325,ETIM Class for Relays,Relays,98,Alt Relays,85,Other Relays,60,Based on extracted specifications
+PROD-022,Contactors,Industrial,EC009668,ETIM Class for Contactors,Contactors,98,Alt Contactors,85,Other Contactors,60,Based on extracted specifications
+PROD-023,Contactors,Industrial,EC004583,ETIM Class for Contactors,Contactors,98,Alt Contactors,85,Other Contactors,60,Based on extracted specifications
+PROD-024,Contactors,Industrial,EC006493,ETIM Class for Contactors,Contactors,98,Alt Contactors,85,Other Contactors,60,Based on extracted specifications
+PROD-025,Industrial Controllers,Industrial,EC006398,ETIM Class for Industrial Controllers,Industrial Controllers,98,Alt Industrial Controllers,85,Other Industrial Controllers,60,Based on extracted specifications
+PROD-026,Industrial Controllers,Industrial,EC003878,ETIM Class for Industrial Controllers,Industrial Controllers,98,Alt Industrial Controllers,85,Other Industrial Controllers,60,Based on extracted specifications
+PROD-027,Industrial Controllers,Industrial,EC002872,ETIM Class for Industrial Controllers,Industrial Controllers,98,Alt Industrial Controllers,85,Other Industrial Controllers,60,Based on extracted specifications
+PROD-028,Power Supplies,Industrial,EC002292,ETIM Class for Power Supplies,Power Supplies,98,Alt Power Supplies,85,Other Power Supplies,60,Based on extracted specifications
+PROD-029,Power Supplies,Industrial,EC004276,ETIM Class for Power Supplies,Power Supplies,98,Alt Power Supplies,85,Other Power Supplies,60,Based on extracted specifications
+PROD-030,Power Supplies,Industrial,EC004495,ETIM Class for Power Supplies,Power Supplies,98,Alt Power Supplies,85,Other Power Supplies,60,Based on extracted specifications

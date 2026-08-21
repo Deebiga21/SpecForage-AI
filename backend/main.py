@@ -67,6 +67,9 @@ manager = ConnectionManager()
 
 # Hook for processing.py
 import processing
+import insights_schema
+from insights_worker import run_insights_job
+
 def broadcast_job_status(job_id, status, progress, result_product_id, error_message, steps):
     state = {
         "job_id": job_id,
@@ -83,6 +86,9 @@ def broadcast_job_status(job_id, status, progress, result_product_id, error_mess
         "type": "job_update",
         "data": state
     }))
+    
+    if status == "completed" and result_product_id:
+        asyncio.create_task(run_insights_job(result_product_id))
 
 processing.update_job_status = broadcast_job_status
 
@@ -97,8 +103,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+from insights_router import router as insights_router
+app.include_router(insights_router)
 
 # ----------------- UPLOAD & JOBS -----------------
 
@@ -402,8 +412,7 @@ async def get_chat_history(db: Session = Depends(get_db)):
 @app.post("/api/chat")
 async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     try:
-        import ollama
-        import json
+        import httpx
         
         user_msg = request.messages[-1].content
         
@@ -419,19 +428,25 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
             attr_str = ", ".join([f"{a.field}: {a.value} {a.unit or ''}" for a in attrs])
             db_context += f"Product: {p.product_name} (SKU: {p.sku}), Category: {p.category}, Confidence: {p.confidence}, Status: {p.validation_status}\n  Attributes: {attr_str}\n\n"
             
-        system_content = f"You are SPECForge AI Assistant, interacting with the actual SQLite database. Answer truthfully based ONLY on this data. If no info, say 'No verified information found'.\n\n{db_context}"
+        system_instruction = f"You are SPECForge AI Assistant, interacting with a product spec database. Answer truthfully based on this data. You are also an expert in general industry knowledge (manufacturing, hardware, industrial tech). When explaining data processes, relationships, or complex topics, ALWAYS provide a Mermaid.js flowchart (using \\mermaid ... \\ block) to visually represent the flow map of the processed data or concepts.\n\n{db_context}"
         
-        ollama_msgs = [{"role": "system", "content": system_content}]
+        ollama_messages = [{"role": "system", "content": system_instruction}]
+        
         for msg in request.messages:
             role = "user" if msg.role == "user" else "assistant"
-            ollama_msgs.append({"role": role, "content": msg.content})
+            ollama_messages.append({"role": role, "content": msg.content})
             
-        resp = ollama.chat(
-            model='llama3.1',
-            messages=ollama_msgs
-        )
+        payload = {
+            "model": "llama3.1:latest",
+            "messages": ollama_messages,
+            "stream": False
+        }
         
-        ai_response = resp['message']['content']
+        async with httpx.AsyncClient(timeout=60.0) as client:
+            response = await client.post("http://localhost:11434/api/chat", json=payload)
+            response.raise_for_status()
+            
+        ai_response = response.json()["message"]["content"]
         
         # Save model msg
         db.add(ChatHistory(role="model", content=ai_response))
@@ -441,9 +456,7 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     except Exception as e:
         import traceback
         traceback.print_exc()
-        raise HTTPException(status_code=500, detail=str(e))
-
-# ----------------- SYSTEM -----------------
+        return {"response": f"Error communicating with local model: {str(e)}"}
 
 @app.get("/api/system/health")
 async def get_health():

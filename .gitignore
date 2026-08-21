@@ -9,3 +9,5 @@ build/
 uploads/
 faiss_index/
 specforage.db
+*.db
+*.log

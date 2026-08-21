@@ -1,0 +1,302 @@
+{
+  "PROD-001": {
+    "Product Summary": {
+      "name": "Molded Case Circuit Breaker 250A",
+      "sku": "MCCB-250-3P"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-002": {
+    "Product Summary": {
+      "name": "Miniature Circuit Breaker 16A",
+      "sku": "MCB-16-1P"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-003": {
+    "Product Summary": {
+      "name": "Air Circuit Breaker 1000A",
+      "sku": "ACB-1000-4P"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-004": {
+    "Product Summary": {
+      "name": "Spring-Cage Terminal Block 2.5mm",
+      "sku": "TB-SC-2.5"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-005": {
+    "Product Summary": {
+      "name": "Push-in Terminal Block 4mm",
+      "sku": "TB-PI-4.0"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-006": {
+    "Product Summary": {
+      "name": "Screw Terminal Block 6mm",
+      "sku": "TB-SCW-6.0"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-007": {
+    "Product Summary": {
+      "name": "Industrial Pressure Transmitter 100bar",
+      "sku": "PT-100B-420"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-008": {
+    "Product Summary": {
+      "name": "Digital Pressure Switch 10bar",
+      "sku": "PS-10B-DIG"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-009": {
+    "Product Summary": {
+      "name": "Differential Pressure Transmitter",
+      "sku": "DPT-500"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-010": {
+    "Product Summary": {
+      "name": "PT100 RTD Sensor",
+      "sku": "RTD-PT100-3W"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-011": {
+    "Product Summary": {
+      "name": "Thermocouple Type K",
+      "sku": "TC-K-PROBE"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-012": {
+    "Product Summary": {
+      "name": "Infrared Temperature Sensor",
+      "sku": "IR-TS-420"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-013": {
+    "Product Summary": {
+      "name": "Heavy Duty Connector 16P",
+      "sku": "HDC-16-PIN"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-014": {
+    "Product Summary": {
+      "name": "M12 Circular Connector 5P",
+      "sku": "M12-5P-FEM"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-015": {
+    "Product Summary": {
+      "name": "RJ45 Industrial Ethernet Plug",
+      "sku": "RJ45-IND-IP67"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-016": {
+    "Product Summary": {
+      "name": "Limit Switch Roller Lever",
+      "sku": "LS-RL-IP67"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-017": {
+    "Product Summary": {
+      "name": "Safety Interlock Switch",
+      "sku": "SIS-2NC-1NO"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-018": {
+    "Product Summary": {
+      "name": "Safety Interlock Switch Guard",
+      "sku": "SIS-2NC-1NO-G"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-019": {
+    "Product Summary": {
+      "name": "General Purpose Relay 24VDC",
+      "sku": "GPR-24DC-DPDT"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-020": {
+    "Product Summary": {
+      "name": "Solid State Relay 40A",
+      "sku": "SSR-40A-Z"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-021": {
+    "Product Summary": {
+      "name": "Safety Relay Dual Channel",
+      "sku": "SR-2CH-24V"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-022": {
+    "Product Summary": {
+      "name": "3-Pole Contactor 9A",
+      "sku": "CON-3P-9A"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-023": {
+    "Product Summary": {
+      "name": "4-Pole Contactor 25A",
+      "sku": "CON-4P-25A"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-024": {
+    "Product Summary": {
+      "name": "Capacitor Switching Contactor",
+      "sku": "CAP-CON-50KVAR"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-025": {
+    "Product Summary": {
+      "name": "Micro PLC 14 I/O",
+      "sku": "PLC-M-14IO"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-026": {
+    "Product Summary": {
+      "name": "PID Temperature Controller",
+      "sku": "PID-TC-4848"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-027": {
+    "Product Summary": {
+      "name": "Motion Controller 4-Axis",
+      "sku": "MC-4AX-ENET"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-028": {
+    "Product Summary": {
+      "name": "DIN Rail Power Supply 24V 10A",
+      "sku": "PS-DIN-24V10A"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-029": {
+    "Product Summary": {
+      "name": "DIN Rail PS 24V 10A",
+      "sku": "PS-DIN-24V10A-B"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  },
+  "PROD-030": {
+    "Product Summary": {
+      "name": "Switching Power Supply 12V 5A",
+      "sku": "SPS-12V5A"
+    },
+    "Validation": {
+      "Overall Confidence": "98%",
+      "Validation Status": "PASSED"
+    }
+  }
+}

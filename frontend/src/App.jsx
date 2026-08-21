@@ -11,6 +11,7 @@ import { ArchitecturePage } from './pages/ArchitecturePage';
 import { KnowledgeGraphPage } from './pages/KnowledgeGraphPage';
 import { AssistantPage } from './pages/AssistantPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { InsightsPage } from './pages/InsightsPage';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
             <Route path="dashboard" element={<DashboardPage />} />
             <Route path="products" element={<ProductsPage />} />
             <Route path="products/:id" element={<ProductDetailsPage />} />
+            <Route path="insights" element={<InsightsPage />} />
             <Route path="scan" element={<ScanningPage />} />
             <Route path="architecture" element={<ArchitecturePage />} />
             <Route path="graph" element={<KnowledgeGraphPage />} />

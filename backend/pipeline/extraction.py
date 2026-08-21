@@ -35,6 +35,11 @@ def extract_text(filepath: str) -> dict:
         with open(filepath, 'r', encoding='utf-8') as f:
             text_content = f.read()
         page_count = 1
+    elif filepath.endswith('.csv'):
+        import pandas as pd
+        df = pd.read_csv(filepath)
+        text_content = df.to_markdown(index=False)
+        page_count = 1
     else:
         with fitz.open(filepath) as doc:
             page_count = len(doc)

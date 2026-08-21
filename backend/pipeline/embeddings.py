@@ -36,7 +36,7 @@ def _save_index():
 
 def _load_ids() -> List[str]:
     if os.path.exists(IDS_PATH):
-        return np.load(IDS_PATH).tolist()
+        return np.load(IDS_PATH, allow_pickle=True).tolist()
     return []
 
 def _save_ids(ids: List[str]):

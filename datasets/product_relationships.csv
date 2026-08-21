@@ -1,0 +1,4 @@
+source_product_id,target_product_id,relationship_type,similarity_score,matching_attributes,different_attributes,relationship_confidence
+PROD-017,PROD-018,POSSIBLE_DUPLICATE,96,"Voltage, Current",Guard,95
+PROD-028,PROD-029,POSSIBLE_DUPLICATE,98,"Voltage, Current, Series",SKU Suffix,98
+PROD-001,PROD-002,SIMILAR,85,Type,Current Rating,90

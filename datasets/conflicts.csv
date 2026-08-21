@@ -1,0 +1,4 @@
+conflict_id,product_id,attribute_name,value_1,source_page_1,value_2,source_page_2,conflict_type,severity,resolution_status,recommended_action
+CONF-PROD-002,PROD-002,Rated Voltage,335,2,435,3,Value Mismatch,High,Open,Manual Review Required
+CONF-PROD-008,PROD-008,Pressure Range,349,4,449,5,Value Mismatch,High,Open,Manual Review Required
+CONF-PROD-014,PROD-014,Rated Voltage,343,3,443,4,Value Mismatch,High,Open,Manual Review Required

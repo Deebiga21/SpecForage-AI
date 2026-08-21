@@ -160,17 +160,22 @@ async def process_document_job_async(job_id: str, filepath: str):
         from pipeline.validation import validate_specifications
         from pipeline.taxonomy import classify_taxonomy
         
-        norm_results = await asyncio.to_thread(normalize_specifications_logic, product_data.specifications)
+        # Run independent logic steps concurrently
+        norm_task = asyncio.to_thread(normalize_specifications_logic, product_data.specifications)
+        tax_task = asyncio.to_thread(classify_taxonomy, product_data.product_name, product_data.specifications)
+        val_task = asyncio.to_thread(validate_specifications, product_data.specifications)
+        
+        norm_results, tax_results, val_results = await asyncio.gather(norm_task, tax_task, val_task)
+        
         set_step_status(db, job_id, "Normalize Units", "completed", "Units normalized", len(norm_results), spec_count)
         
-        cat, code, conf = await asyncio.to_thread(classify_taxonomy, product_data.product_name, product_data.specifications)
+        cat, code, conf = tax_results
         if conf > 0:
             product_data.taxonomy.category = cat
             product_data.taxonomy.etim_code = code
             product_data.taxonomy.confidence = conf
         set_step_status(db, job_id, "Map Taxonomy", "completed", f"Classified as {cat}")
         
-        val_results = await asyncio.to_thread(validate_specifications, product_data.specifications)
         product_data.validation = val_results
         failed_count = sum(1 for v in val_results if "Failed" in v.status)
         set_step_status(db, job_id, "Validation", "completed", f"Validation run", len(val_results), len(val_results))
@@ -325,7 +330,11 @@ async def process_document_job_async(job_id: str, filepath: str):
         
     except Exception as e:
         db.rollback()
-        set_step_status(db, job_id, "Save to SQLite", "failed", "Pipeline failed", error=str(e))
+        current_step = db.query(ProcessingStep).filter(ProcessingStep.job_id == job_id, ProcessingStep.status == "processing").first()
+        if current_step:
+            set_step_status(db, job_id, current_step.step_name, "failed", "Pipeline failed", error=str(e))
+        else:
+            set_step_status(db, job_id, "Save to SQLite", "failed", "Pipeline failed", error=str(e))
         broadcast_job(db, job_id, job_status="error", error_message=str(e))
         print(traceback.format_exc())
     finally:

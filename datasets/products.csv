@@ -1,0 +1,31 @@
+product_id,product_name,sku,manufacturer,category,subcategory,description,model_number,country_of_origin,product_status,datasheet_filename
+PROD-001,Molded Case Circuit Breaker 250A,MCCB-250-3P,Siemens,Circuit Breakers,Industrial,Molded Case Circuit Breaker 250A by Siemens,MOD-MCCB-250-3P,Germany,Active,MCCB-250-3P_datasheet.pdf
+PROD-002,Miniature Circuit Breaker 16A,MCB-16-1P,Schneider Electric,Circuit Breakers,Industrial,Miniature Circuit Breaker 16A by Schneider Electric,MOD-MCB-16-1P,Germany,Active,MCB-16-1P_datasheet.pdf
+PROD-003,Air Circuit Breaker 1000A,ACB-1000-4P,ABB,Circuit Breakers,Industrial,Air Circuit Breaker 1000A by ABB,MOD-ACB-1000-4P,Germany,Active,ACB-1000-4P_datasheet.pdf
+PROD-004,Spring-Cage Terminal Block 2.5mm,TB-SC-2.5,Phoenix Contact,Terminal Blocks,Industrial,Spring-Cage Terminal Block 2.5mm by Phoenix Contact,MOD-TB-SC-2.5,Germany,Active,TB-SC-2.5_datasheet.pdf
+PROD-005,Push-in Terminal Block 4mm,TB-PI-4.0,WAGO,Terminal Blocks,Industrial,Push-in Terminal Block 4mm by WAGO,MOD-TB-PI-4.0,Germany,Active,TB-PI-4.0_datasheet.pdf
+PROD-006,Screw Terminal Block 6mm,TB-SCW-6.0,Weidmuller,Terminal Blocks,Industrial,Screw Terminal Block 6mm by Weidmuller,MOD-TB-SCW-6.0,Germany,Active,TB-SCW-6.0_datasheet.pdf
+PROD-007,Industrial Pressure Transmitter 100bar,PT-100B-420,WIKA,Pressure Sensors,Industrial,Industrial Pressure Transmitter 100bar by WIKA,MOD-PT-100B-420,Germany,Active,PT-100B-420_datasheet.pdf
+PROD-008,Digital Pressure Switch 10bar,PS-10B-DIG,SMC,Pressure Sensors,Industrial,Digital Pressure Switch 10bar by SMC,MOD-PS-10B-DIG,Germany,Active,PS-10B-DIG_datasheet.pdf
+PROD-009,Differential Pressure Transmitter,DPT-500,Endress+Hauser,Pressure Sensors,Industrial,Differential Pressure Transmitter by Endress+Hauser,MOD-DPT-500,Germany,Active,DPT-500_datasheet.pdf
+PROD-010,PT100 RTD Sensor,RTD-PT100-3W,Omega Engineering,Temperature Sensors,Industrial,PT100 RTD Sensor by Omega Engineering,MOD-RTD-PT100-3W,Germany,Active,RTD-PT100-3W_datasheet.pdf
+PROD-011,Thermocouple Type K,TC-K-PROBE,Fluke,Temperature Sensors,Industrial,Thermocouple Type K by Fluke,MOD-TC-K-PROBE,Germany,Active,TC-K-PROBE_datasheet.pdf
+PROD-012,Infrared Temperature Sensor,IR-TS-420,Micro-Epsilon,Temperature Sensors,Industrial,Infrared Temperature Sensor by Micro-Epsilon,MOD-IR-TS-420,Germany,Active,IR-TS-420_datasheet.pdf
+PROD-013,Heavy Duty Connector 16P,HDC-16-PIN,Harting,Industrial Connectors,Industrial,Heavy Duty Connector 16P by Harting,MOD-HDC-16-PIN,Germany,Active,HDC-16-PIN_datasheet.pdf
+PROD-014,M12 Circular Connector 5P,M12-5P-FEM,Binder,Industrial Connectors,Industrial,M12 Circular Connector 5P by Binder,MOD-M12-5P-FEM,Germany,Active,M12-5P-FEM_datasheet.pdf
+PROD-015,RJ45 Industrial Ethernet Plug,RJ45-IND-IP67,Telegartner,Industrial Connectors,Industrial,RJ45 Industrial Ethernet Plug by Telegartner,MOD-RJ45-IND-IP67,Germany,Active,RJ45-IND-IP67_datasheet.pdf
+PROD-016,Limit Switch Roller Lever,LS-RL-IP67,Omron,Switches,Industrial,Limit Switch Roller Lever by Omron,MOD-LS-RL-IP67,Germany,Active,LS-RL-IP67_datasheet.pdf
+PROD-017,Safety Interlock Switch,SIS-2NC-1NO,Pilz,Switches,Industrial,Safety Interlock Switch by Pilz,MOD-SIS-2NC-1NO,Germany,Active,SIS-2NC-1NO_datasheet.pdf
+PROD-018,Safety Interlock Switch Guard,SIS-2NC-1NO-G,Pilz,Switches,Industrial,Safety Interlock Switch Guard by Pilz,MOD-SIS-2NC-1NO-G,Germany,Active,SIS-2NC-1NO-G_datasheet.pdf
+PROD-019,General Purpose Relay 24VDC,GPR-24DC-DPDT,Finder,Relays,Industrial,General Purpose Relay 24VDC by Finder,MOD-GPR-24DC-DPDT,Germany,Active,GPR-24DC-DPDT_datasheet.pdf
+PROD-020,Solid State Relay 40A,SSR-40A-Z,Crydom,Relays,Industrial,Solid State Relay 40A by Crydom,MOD-SSR-40A-Z,Germany,Active,SSR-40A-Z_datasheet.pdf
+PROD-021,Safety Relay Dual Channel,SR-2CH-24V,Sick,Relays,Industrial,Safety Relay Dual Channel by Sick,MOD-SR-2CH-24V,Germany,Active,SR-2CH-24V_datasheet.pdf
+PROD-022,3-Pole Contactor 9A,CON-3P-9A,Eaton,Contactors,Industrial,3-Pole Contactor 9A by Eaton,MOD-CON-3P-9A,Germany,Active,CON-3P-9A_datasheet.pdf
+PROD-023,4-Pole Contactor 25A,CON-4P-25A,Schneider Electric,Contactors,Industrial,4-Pole Contactor 25A by Schneider Electric,MOD-CON-4P-25A,Germany,Active,CON-4P-25A_datasheet.pdf
+PROD-024,Capacitor Switching Contactor,CAP-CON-50KVAR,ABB,Contactors,Industrial,Capacitor Switching Contactor by ABB,MOD-CAP-CON-50KVAR,Germany,Active,CAP-CON-50KVAR_datasheet.pdf
+PROD-025,Micro PLC 14 I/O,PLC-M-14IO,Siemens,Industrial Controllers,Industrial,Micro PLC 14 I/O by Siemens,MOD-PLC-M-14IO,Germany,Active,PLC-M-14IO_datasheet.pdf
+PROD-026,PID Temperature Controller,PID-TC-4848,Omron,Industrial Controllers,Industrial,PID Temperature Controller by Omron,MOD-PID-TC-4848,Germany,Active,PID-TC-4848_datasheet.pdf
+PROD-027,Motion Controller 4-Axis,MC-4AX-ENET,Beckhoff,Industrial Controllers,Industrial,Motion Controller 4-Axis by Beckhoff,MOD-MC-4AX-ENET,Germany,Active,MC-4AX-ENET_datasheet.pdf
+PROD-028,DIN Rail Power Supply 24V 10A,PS-DIN-24V10A,Mean Well,Power Supplies,Industrial,DIN Rail Power Supply 24V 10A by Mean Well,MOD-PS-DIN-24V10A,Germany,Active,PS-DIN-24V10A_datasheet.pdf
+PROD-029,DIN Rail PS 24V 10A,PS-DIN-24V10A-B,Mean Well,Power Supplies,Industrial,DIN Rail PS 24V 10A by Mean Well,MOD-PS-DIN-24V10A-B,Germany,Active,PS-DIN-24V10A-B_datasheet.pdf
+PROD-030,Switching Power Supply 12V 5A,SPS-12V5A,Delta Electronics,Power Supplies,Industrial,Switching Power Supply 12V 5A by Delta Electronics,MOD-SPS-12V5A,Germany,Active,SPS-12V5A_datasheet.pdf

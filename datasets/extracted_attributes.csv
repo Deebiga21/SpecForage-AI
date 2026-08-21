@@ -1,0 +1,112 @@
+product_id,attribute_name,original_value,normalized_value,unit,confidence,source_page,source_text,extraction_status
+PROD-001,Rated Voltage,356 V Max,356,V,82,3,The maximum rated voltage is rated at 356 V.,Verified
+PROD-001,Rated Current,351 A Max,351,A,96,4,The maximum rated current is rated at 351 A.,Verified
+PROD-001,Number of Poles,340 Unit Max,340,Unit,84,4,The maximum number of poles is rated at 340 Unit.,Verified
+PROD-001,Breaking Capacity,224 Unit Max,224,Unit,83,4,The maximum breaking capacity is rated at 224 Unit.,Verified
+PROD-002,Rated Voltage,335 V Max,335,V,98,2,The maximum rated voltage is rated at 335 V.,Verified
+PROD-002,Rated Current,317 A Max,317,A,92,4,The maximum rated current is rated at 317 A.,Verified
+PROD-002,Number of Poles,70 Unit Max,70,Unit,89,1,The maximum number of poles is rated at 70 Unit.,Verified
+PROD-002,Breaking Capacity,167 Unit Max,167,Unit,87,4,The maximum breaking capacity is rated at 167 Unit.,Verified
+PROD-003,Rated Voltage,441 V Max,441,V,95,1,The maximum rated voltage is rated at 441 V.,Verified
+PROD-003,Number of Poles,146 Unit Max,146,Unit,84,2,The maximum number of poles is rated at 146 Unit.,Verified
+PROD-003,Breaking Capacity,353 Unit Max,353,Unit,97,1,The maximum breaking capacity is rated at 353 Unit.,Verified
+PROD-004,Rated Voltage,277 V Max,277,V,93,2,The maximum rated voltage is rated at 277 V.,Verified
+PROD-004,Rated Current,111 A Max,111,A,98,2,The maximum rated current is rated at 111 A.,Verified
+PROD-004,Cross Section,377 Unit Max,377,Unit,97,1,The maximum cross section is rated at 377 Unit.,Verified
+PROD-004,Mounting Type,410 Unit Max,410,Unit,94,2,The maximum mounting type is rated at 410 Unit.,Verified
+PROD-005,Rated Voltage,493 V Max,493,V,94,2,The maximum rated voltage is rated at 493 V.,Verified
+PROD-005,Rated Current,288 A Max,288,A,85,1,The maximum rated current is rated at 288 A.,Verified
+PROD-005,Cross Section,290 Unit Max,290,Unit,88,1,The maximum cross section is rated at 290 Unit.,Verified
+PROD-005,Mounting Type,139 Unit Max,139,Unit,87,3,The maximum mounting type is rated at 139 Unit.,Verified
+PROD-006,Rated Voltage,452 V Max,452,V,88,1,The maximum rated voltage is rated at 452 V.,Verified
+PROD-006,Mounting Type,97 Unit Max,97,Unit,86,4,The maximum mounting type is rated at 97 Unit.,Verified
+PROD-007,Pressure Range,373 Unit Max,373,Unit,99,2,The maximum pressure range is rated at 373 Unit.,Verified
+PROD-007,Output Type,18 Unit Max,18,Unit,96,4,The maximum output type is rated at 18 Unit.,Verified
+PROD-007,Accuracy,119 Unit Max,119,Unit,98,2,The maximum accuracy is rated at 119 Unit.,Verified
+PROD-007,Process Connection,248 Unit Max,248,Unit,98,2,The maximum process connection is rated at 248 Unit.,Verified
+PROD-008,Pressure Range,349 Unit Max,349,Unit,80,4,The maximum pressure range is rated at 349 Unit.,Verified
+PROD-008,Output Type,15 Unit Max,15,Unit,82,3,The maximum output type is rated at 15 Unit.,Verified
+PROD-008,Accuracy,216 Unit Max,216,Unit,84,3,The maximum accuracy is rated at 216 Unit.,Verified
+PROD-008,Process Connection,24 Unit Max,24,Unit,84,2,The maximum process connection is rated at 24 Unit.,Verified
+PROD-009,Pressure Range,102 Unit Max,102,Unit,81,4,The maximum pressure range is rated at 102 Unit.,Verified
+PROD-009,Output Type,164 Unit Max,164,Unit,92,1,The maximum output type is rated at 164 Unit.,Verified
+PROD-009,Accuracy,94 Unit Max,94,Unit,89,4,The maximum accuracy is rated at 94 Unit.,Verified
+PROD-009,Process Connection,421 Unit Max,421,Unit,97,1,The maximum process connection is rated at 421 Unit.,Verified
+PROD-010,Temperature Range,293 Unit Max,293,Unit,88,3,The maximum temperature range is rated at 293 Unit.,Verified
+PROD-010,Sensor Type,243 Unit Max,243,Unit,91,1,The maximum sensor type is rated at 243 Unit.,Verified
+PROD-010,Accuracy,52 Unit Max,52,Unit,87,4,The maximum accuracy is rated at 52 Unit.,Verified
+PROD-010,Connection,409 Unit Max,409,Unit,91,3,The maximum connection is rated at 409 Unit.,Verified
+PROD-011,Temperature Range,74 Unit Max,74,Unit,83,4,The maximum temperature range is rated at 74 Unit.,Verified
+PROD-012,Temperature Range,175 Unit Max,175,Unit,89,2,The maximum temperature range is rated at 175 Unit.,Verified
+PROD-012,Sensor Type,266 Unit Max,266,Unit,80,3,The maximum sensor type is rated at 266 Unit.,Verified
+PROD-012,Accuracy,54 Unit Max,54,Unit,92,2,The maximum accuracy is rated at 54 Unit.,Verified
+PROD-012,Connection,260 Unit Max,260,Unit,100,3,The maximum connection is rated at 260 Unit.,Verified
+PROD-013,Rated Voltage,274 V Max,274,V,99,3,The maximum rated voltage is rated at 274 V.,Verified
+PROD-013,Rated Current,115 A Max,115,A,88,4,The maximum rated current is rated at 115 A.,Verified
+PROD-013,IP Rating,185 Unit Max,185,Unit,81,3,The maximum ip rating is rated at 185 Unit.,Verified
+PROD-013,Number of Pins,121 Unit Max,121,Unit,85,1,The maximum number of pins is rated at 121 Unit.,Verified
+PROD-014,Rated Voltage,343 V Max,343,V,83,3,The maximum rated voltage is rated at 343 V.,Verified
+PROD-014,Rated Current,354 A Max,354,A,85,1,The maximum rated current is rated at 354 A.,Verified
+PROD-014,IP Rating,183 Unit Max,183,Unit,86,1,The maximum ip rating is rated at 183 Unit.,Verified
+PROD-014,Number of Pins,309 Unit Max,309,Unit,100,3,The maximum number of pins is rated at 309 Unit.,Verified
+PROD-015,Rated Voltage,40 V Max,40,V,98,3,The maximum rated voltage is rated at 40 V.,Verified
+PROD-015,Rated Current,69 A Max,69,A,84,4,The maximum rated current is rated at 69 A.,Verified
+PROD-015,IP Rating,431 Unit Max,431,Unit,88,2,The maximum ip rating is rated at 431 Unit.,Verified
+PROD-015,Number of Pins,253 Unit Max,253,Unit,98,3,The maximum number of pins is rated at 253 Unit.,Verified
+PROD-016,Contact Configuration,346 Unit Max,346,Unit,83,3,The maximum contact configuration is rated at 346 Unit.,Verified
+PROD-016,Rated Voltage,81 V Max,81,V,92,2,The maximum rated voltage is rated at 81 V.,Verified
+PROD-016,Rated Current,152 A Max,152,A,87,4,The maximum rated current is rated at 152 A.,Verified
+PROD-016,IP Rating,329 Unit Max,329,Unit,86,3,The maximum ip rating is rated at 329 Unit.,Verified
+PROD-017,Contact Configuration,369 Unit Max,369,Unit,93,3,The maximum contact configuration is rated at 369 Unit.,Verified
+PROD-017,Rated Voltage,307 V Max,307,V,84,2,The maximum rated voltage is rated at 307 V.,Verified
+PROD-017,Rated Current,108 A Max,108,A,100,2,The maximum rated current is rated at 108 A.,Verified
+PROD-017,IP Rating,230 Unit Max,230,Unit,90,1,The maximum ip rating is rated at 230 Unit.,Verified
+PROD-018,Contact Configuration,246 Unit Max,246,Unit,90,1,The maximum contact configuration is rated at 246 Unit.,Verified
+PROD-018,Rated Voltage,238 V Max,238,V,92,2,The maximum rated voltage is rated at 238 V.,Verified
+PROD-018,Rated Current,77 A Max,77,A,99,4,The maximum rated current is rated at 77 A.,Verified
+PROD-018,IP Rating,201 Unit Max,201,Unit,83,2,The maximum ip rating is rated at 201 Unit.,Verified
+PROD-019,Coil Voltage,341 V Max,341,V,83,1,The maximum coil voltage is rated at 341 V.,Verified
+PROD-019,Contact Rating,424 Unit Max,424,Unit,90,3,The maximum contact rating is rated at 424 Unit.,Verified
+PROD-019,Contact Configuration,277 Unit Max,277,Unit,99,3,The maximum contact configuration is rated at 277 Unit.,Verified
+PROD-019,Mounting Type,101 Unit Max,101,Unit,98,1,The maximum mounting type is rated at 101 Unit.,Verified
+PROD-020,Contact Rating,132 Unit Max,132,Unit,93,1,The maximum contact rating is rated at 132 Unit.,Verified
+PROD-021,Coil Voltage,470 V Max,470,V,90,1,The maximum coil voltage is rated at 470 V.,Verified
+PROD-021,Contact Rating,408 Unit Max,408,Unit,89,1,The maximum contact rating is rated at 408 Unit.,Verified
+PROD-021,Contact Configuration,183 Unit Max,183,Unit,80,4,The maximum contact configuration is rated at 183 Unit.,Verified
+PROD-021,Mounting Type,272 Unit Max,272,Unit,90,4,The maximum mounting type is rated at 272 Unit.,Verified
+PROD-022,Coil Voltage,342 V Max,342,V,90,2,The maximum coil voltage is rated at 342 V.,Verified
+PROD-022,Rated Current,375 A Max,375,A,98,3,The maximum rated current is rated at 375 A.,Verified
+PROD-022,Number of Poles,209 Unit Max,209,Unit,92,3,The maximum number of poles is rated at 209 Unit.,Verified
+PROD-022,Auxiliary Contacts,369 Unit Max,369,Unit,88,3,The maximum auxiliary contacts is rated at 369 Unit.,Verified
+PROD-023,Coil Voltage,159 V Max,159,V,89,2,The maximum coil voltage is rated at 159 V.,Verified
+PROD-023,Rated Current,439 A Max,439,A,100,1,The maximum rated current is rated at 439 A.,Verified
+PROD-023,Number of Poles,109 Unit Max,109,Unit,87,4,The maximum number of poles is rated at 109 Unit.,Verified
+PROD-023,Auxiliary Contacts,326 Unit Max,326,Unit,84,3,The maximum auxiliary contacts is rated at 326 Unit.,Verified
+PROD-024,Coil Voltage,275 V Max,275,V,83,3,The maximum coil voltage is rated at 275 V.,Verified
+PROD-024,Rated Current,170 A Max,170,A,89,3,The maximum rated current is rated at 170 A.,Verified
+PROD-024,Number of Poles,464 Unit Max,464,Unit,93,3,The maximum number of poles is rated at 464 Unit.,Verified
+PROD-024,Auxiliary Contacts,378 Unit Max,378,Unit,81,2,The maximum auxiliary contacts is rated at 378 Unit.,Verified
+PROD-025,Supply Voltage,271 V Max,271,V,84,2,The maximum supply voltage is rated at 271 V.,Verified
+PROD-025,Number of Inputs,188 Unit Max,188,Unit,80,2,The maximum number of inputs is rated at 188 Unit.,Verified
+PROD-025,Number of Outputs,227 Unit Max,227,Unit,97,3,The maximum number of outputs is rated at 227 Unit.,Verified
+PROD-025,Communication Protocol,69 Unit Max,69,Unit,98,3,The maximum communication protocol is rated at 69 Unit.,Verified
+PROD-026,Supply Voltage,304 V Max,304,V,95,3,The maximum supply voltage is rated at 304 V.,Verified
+PROD-026,Number of Inputs,425 Unit Max,425,Unit,89,3,The maximum number of inputs is rated at 425 Unit.,Verified
+PROD-026,Number of Outputs,222 Unit Max,222,Unit,91,3,The maximum number of outputs is rated at 222 Unit.,Verified
+PROD-026,Communication Protocol,153 Unit Max,153,Unit,83,4,The maximum communication protocol is rated at 153 Unit.,Verified
+PROD-027,Supply Voltage,235 V Max,235,V,90,2,The maximum supply voltage is rated at 235 V.,Verified
+PROD-027,Number of Inputs,366 Unit Max,366,Unit,97,3,The maximum number of inputs is rated at 366 Unit.,Verified
+PROD-027,Number of Outputs,219 Unit Max,219,Unit,85,2,The maximum number of outputs is rated at 219 Unit.,Verified
+PROD-027,Communication Protocol,475 Unit Max,475,Unit,94,4,The maximum communication protocol is rated at 475 Unit.,Verified
+PROD-028,Input Voltage,189 V Max,189,V,89,3,The maximum input voltage is rated at 189 V.,Verified
+PROD-028,Output Voltage,49 V Max,49,V,85,1,The maximum output voltage is rated at 49 V.,Verified
+PROD-028,Output Current,457 A Max,457,A,95,2,The maximum output current is rated at 457 A.,Verified
+PROD-028,Power Rating,494 Unit Max,494,Unit,95,4,The maximum power rating is rated at 494 Unit.,Verified
+PROD-029,Input Voltage,396 V Max,396,V,90,4,The maximum input voltage is rated at 396 V.,Verified
+PROD-029,Output Voltage,62 V Max,62,V,90,1,The maximum output voltage is rated at 62 V.,Verified
+PROD-029,Output Current,495 A Max,495,A,100,2,The maximum output current is rated at 495 A.,Verified
+PROD-029,Power Rating,222 Unit Max,222,Unit,89,1,The maximum power rating is rated at 222 Unit.,Verified
+PROD-030,Input Voltage,336 V Max,336,V,89,1,The maximum input voltage is rated at 336 V.,Verified
+PROD-030,Output Voltage,105 V Max,105,V,86,1,The maximum output voltage is rated at 105 V.,Verified
+PROD-030,Output Current,181 A Max,181,A,93,2,The maximum output current is rated at 181 A.,Verified
+PROD-030,Power Rating,264 Unit Max,264,Unit,99,1,The maximum power rating is rated at 264 Unit.,Verified

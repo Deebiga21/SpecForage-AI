@@ -1,0 +1,112 @@
+product_id,attribute_name,value,document_id,page_number,section,source_text,evidence_type,confidence,verification_status
+PROD-001,Rated Voltage,356,DOC-PROD-001,3,Technical Data,The maximum rated voltage is rated at 356 V.,Text,82,Passed
+PROD-001,Rated Current,351,DOC-PROD-001,4,Technical Data,The maximum rated current is rated at 351 A.,Text,96,Passed
+PROD-001,Number of Poles,340,DOC-PROD-001,4,Technical Data,The maximum number of poles is rated at 340 Unit.,Text,84,Passed
+PROD-001,Breaking Capacity,224,DOC-PROD-001,4,Technical Data,The maximum breaking capacity is rated at 224 Unit.,Text,83,Passed
+PROD-002,Rated Voltage,335,DOC-PROD-002,2,Technical Data,The maximum rated voltage is rated at 335 V.,Text,98,Passed
+PROD-002,Rated Current,317,DOC-PROD-002,4,Technical Data,The maximum rated current is rated at 317 A.,Text,92,Passed
+PROD-002,Number of Poles,70,DOC-PROD-002,1,Technical Data,The maximum number of poles is rated at 70 Unit.,Text,89,Passed
+PROD-002,Breaking Capacity,167,DOC-PROD-002,4,Technical Data,The maximum breaking capacity is rated at 167 Unit.,Text,87,Passed
+PROD-003,Rated Voltage,441,DOC-PROD-003,1,Technical Data,The maximum rated voltage is rated at 441 V.,Text,95,Passed
+PROD-003,Number of Poles,146,DOC-PROD-003,2,Technical Data,The maximum number of poles is rated at 146 Unit.,Text,84,Passed
+PROD-003,Breaking Capacity,353,DOC-PROD-003,1,Technical Data,The maximum breaking capacity is rated at 353 Unit.,Text,97,Passed
+PROD-004,Rated Voltage,277,DOC-PROD-004,2,Technical Data,The maximum rated voltage is rated at 277 V.,Text,93,Passed
+PROD-004,Rated Current,111,DOC-PROD-004,2,Technical Data,The maximum rated current is rated at 111 A.,Text,98,Passed
+PROD-004,Cross Section,377,DOC-PROD-004,1,Technical Data,The maximum cross section is rated at 377 Unit.,Text,97,Passed
+PROD-004,Mounting Type,410,DOC-PROD-004,2,Technical Data,The maximum mounting type is rated at 410 Unit.,Text,94,Passed
+PROD-005,Rated Voltage,493,DOC-PROD-005,2,Technical Data,The maximum rated voltage is rated at 493 V.,Text,94,Passed
+PROD-005,Rated Current,288,DOC-PROD-005,1,Technical Data,The maximum rated current is rated at 288 A.,Text,85,Passed
+PROD-005,Cross Section,290,DOC-PROD-005,1,Technical Data,The maximum cross section is rated at 290 Unit.,Text,88,Passed
+PROD-005,Mounting Type,139,DOC-PROD-005,3,Technical Data,The maximum mounting type is rated at 139 Unit.,Text,87,Passed
+PROD-006,Rated Voltage,452,DOC-PROD-006,1,Technical Data,The maximum rated voltage is rated at 452 V.,Text,88,Passed
+PROD-006,Mounting Type,97,DOC-PROD-006,4,Technical Data,The maximum mounting type is rated at 97 Unit.,Text,86,Passed
+PROD-007,Pressure Range,373,DOC-PROD-007,2,Technical Data,The maximum pressure range is rated at 373 Unit.,Text,99,Passed
+PROD-007,Output Type,18,DOC-PROD-007,4,Technical Data,The maximum output type is rated at 18 Unit.,Text,96,Passed
+PROD-007,Accuracy,119,DOC-PROD-007,2,Technical Data,The maximum accuracy is rated at 119 Unit.,Text,98,Passed
+PROD-007,Process Connection,248,DOC-PROD-007,2,Technical Data,The maximum process connection is rated at 248 Unit.,Text,98,Passed
+PROD-008,Pressure Range,349,DOC-PROD-008,4,Technical Data,The maximum pressure range is rated at 349 Unit.,Text,80,Passed
+PROD-008,Output Type,15,DOC-PROD-008,3,Technical Data,The maximum output type is rated at 15 Unit.,Text,82,Passed
+PROD-008,Accuracy,216,DOC-PROD-008,3,Technical Data,The maximum accuracy is rated at 216 Unit.,Text,84,Passed
+PROD-008,Process Connection,24,DOC-PROD-008,2,Technical Data,The maximum process connection is rated at 24 Unit.,Text,84,Passed
+PROD-009,Pressure Range,102,DOC-PROD-009,4,Technical Data,The maximum pressure range is rated at 102 Unit.,Text,81,Passed
+PROD-009,Output Type,164,DOC-PROD-009,1,Technical Data,The maximum output type is rated at 164 Unit.,Text,92,Passed
+PROD-009,Accuracy,94,DOC-PROD-009,4,Technical Data,The maximum accuracy is rated at 94 Unit.,Text,89,Passed
+PROD-009,Process Connection,421,DOC-PROD-009,1,Technical Data,The maximum process connection is rated at 421 Unit.,Text,97,Passed
+PROD-010,Temperature Range,293,DOC-PROD-010,3,Technical Data,The maximum temperature range is rated at 293 Unit.,Text,88,Passed
+PROD-010,Sensor Type,243,DOC-PROD-010,1,Technical Data,The maximum sensor type is rated at 243 Unit.,Text,91,Passed
+PROD-010,Accuracy,52,DOC-PROD-010,4,Technical Data,The maximum accuracy is rated at 52 Unit.,Text,87,Passed
+PROD-010,Connection,409,DOC-PROD-010,3,Technical Data,The maximum connection is rated at 409 Unit.,Text,91,Passed
+PROD-011,Temperature Range,74,DOC-PROD-011,4,Technical Data,The maximum temperature range is rated at 74 Unit.,Text,83,Passed
+PROD-012,Temperature Range,175,DOC-PROD-012,2,Technical Data,The maximum temperature range is rated at 175 Unit.,Text,89,Passed
+PROD-012,Sensor Type,266,DOC-PROD-012,3,Technical Data,The maximum sensor type is rated at 266 Unit.,Text,80,Passed
+PROD-012,Accuracy,54,DOC-PROD-012,2,Technical Data,The maximum accuracy is rated at 54 Unit.,Text,92,Passed
+PROD-012,Connection,260,DOC-PROD-012,3,Technical Data,The maximum connection is rated at 260 Unit.,Text,100,Passed
+PROD-013,Rated Voltage,274,DOC-PROD-013,3,Technical Data,The maximum rated voltage is rated at 274 V.,Text,99,Passed
+PROD-013,Rated Current,115,DOC-PROD-013,4,Technical Data,The maximum rated current is rated at 115 A.,Text,88,Passed
+PROD-013,IP Rating,185,DOC-PROD-013,3,Technical Data,The maximum ip rating is rated at 185 Unit.,Text,81,Passed
+PROD-013,Number of Pins,121,DOC-PROD-013,1,Technical Data,The maximum number of pins is rated at 121 Unit.,Text,85,Passed
+PROD-014,Rated Voltage,343,DOC-PROD-014,3,Technical Data,The maximum rated voltage is rated at 343 V.,Text,83,Passed
+PROD-014,Rated Current,354,DOC-PROD-014,1,Technical Data,The maximum rated current is rated at 354 A.,Text,85,Passed
+PROD-014,IP Rating,183,DOC-PROD-014,1,Technical Data,The maximum ip rating is rated at 183 Unit.,Text,86,Passed
+PROD-014,Number of Pins,309,DOC-PROD-014,3,Technical Data,The maximum number of pins is rated at 309 Unit.,Text,100,Passed
+PROD-015,Rated Voltage,40,DOC-PROD-015,3,Technical Data,The maximum rated voltage is rated at 40 V.,Text,98,Passed
+PROD-015,Rated Current,69,DOC-PROD-015,4,Technical Data,The maximum rated current is rated at 69 A.,Text,84,Passed
+PROD-015,IP Rating,431,DOC-PROD-015,2,Technical Data,The maximum ip rating is rated at 431 Unit.,Text,88,Passed
+PROD-015,Number of Pins,253,DOC-PROD-015,3,Technical Data,The maximum number of pins is rated at 253 Unit.,Text,98,Passed
+PROD-016,Contact Configuration,346,DOC-PROD-016,3,Technical Data,The maximum contact configuration is rated at 346 Unit.,Text,83,Passed
+PROD-016,Rated Voltage,81,DOC-PROD-016,2,Technical Data,The maximum rated voltage is rated at 81 V.,Text,92,Passed
+PROD-016,Rated Current,152,DOC-PROD-016,4,Technical Data,The maximum rated current is rated at 152 A.,Text,87,Passed
+PROD-016,IP Rating,329,DOC-PROD-016,3,Technical Data,The maximum ip rating is rated at 329 Unit.,Text,86,Passed
+PROD-017,Contact Configuration,369,DOC-PROD-017,3,Technical Data,The maximum contact configuration is rated at 369 Unit.,Text,93,Passed
+PROD-017,Rated Voltage,307,DOC-PROD-017,2,Technical Data,The maximum rated voltage is rated at 307 V.,Text,84,Passed
+PROD-017,Rated Current,108,DOC-PROD-017,2,Technical Data,The maximum rated current is rated at 108 A.,Text,100,Passed
+PROD-017,IP Rating,230,DOC-PROD-017,1,Technical Data,The maximum ip rating is rated at 230 Unit.,Text,90,Passed
+PROD-018,Contact Configuration,246,DOC-PROD-018,1,Technical Data,The maximum contact configuration is rated at 246 Unit.,Text,90,Passed
+PROD-018,Rated Voltage,238,DOC-PROD-018,2,Technical Data,The maximum rated voltage is rated at 238 V.,Text,92,Passed
+PROD-018,Rated Current,77,DOC-PROD-018,4,Technical Data,The maximum rated current is rated at 77 A.,Text,99,Passed
+PROD-018,IP Rating,201,DOC-PROD-018,2,Technical Data,The maximum ip rating is rated at 201 Unit.,Text,83,Passed
+PROD-019,Coil Voltage,341,DOC-PROD-019,1,Technical Data,The maximum coil voltage is rated at 341 V.,Text,83,Passed
+PROD-019,Contact Rating,424,DOC-PROD-019,3,Technical Data,The maximum contact rating is rated at 424 Unit.,Text,90,Passed
+PROD-019,Contact Configuration,277,DOC-PROD-019,3,Technical Data,The maximum contact configuration is rated at 277 Unit.,Text,99,Passed
+PROD-019,Mounting Type,101,DOC-PROD-019,1,Technical Data,The maximum mounting type is rated at 101 Unit.,Text,98,Passed
+PROD-020,Contact Rating,132,DOC-PROD-020,1,Technical Data,The maximum contact rating is rated at 132 Unit.,Text,93,Passed
+PROD-021,Coil Voltage,470,DOC-PROD-021,1,Technical Data,The maximum coil voltage is rated at 470 V.,Text,90,Passed
+PROD-021,Contact Rating,408,DOC-PROD-021,1,Technical Data,The maximum contact rating is rated at 408 Unit.,Text,89,Passed
+PROD-021,Contact Configuration,183,DOC-PROD-021,4,Technical Data,The maximum contact configuration is rated at 183 Unit.,Text,80,Passed
+PROD-021,Mounting Type,272,DOC-PROD-021,4,Technical Data,The maximum mounting type is rated at 272 Unit.,Text,90,Passed
+PROD-022,Coil Voltage,342,DOC-PROD-022,2,Technical Data,The maximum coil voltage is rated at 342 V.,Text,90,Passed
+PROD-022,Rated Current,375,DOC-PROD-022,3,Technical Data,The maximum rated current is rated at 375 A.,Text,98,Passed
+PROD-022,Number of Poles,209,DOC-PROD-022,3,Technical Data,The maximum number of poles is rated at 209 Unit.,Text,92,Passed
+PROD-022,Auxiliary Contacts,369,DOC-PROD-022,3,Technical Data,The maximum auxiliary contacts is rated at 369 Unit.,Text,88,Passed
+PROD-023,Coil Voltage,159,DOC-PROD-023,2,Technical Data,The maximum coil voltage is rated at 159 V.,Text,89,Passed
+PROD-023,Rated Current,439,DOC-PROD-023,1,Technical Data,The maximum rated current is rated at 439 A.,Text,100,Passed
+PROD-023,Number of Poles,109,DOC-PROD-023,4,Technical Data,The maximum number of poles is rated at 109 Unit.,Text,87,Passed
+PROD-023,Auxiliary Contacts,326,DOC-PROD-023,3,Technical Data,The maximum auxiliary contacts is rated at 326 Unit.,Text,84,Passed
+PROD-024,Coil Voltage,275,DOC-PROD-024,3,Technical Data,The maximum coil voltage is rated at 275 V.,Text,83,Passed
+PROD-024,Rated Current,170,DOC-PROD-024,3,Technical Data,The maximum rated current is rated at 170 A.,Text,89,Passed
+PROD-024,Number of Poles,464,DOC-PROD-024,3,Technical Data,The maximum number of poles is rated at 464 Unit.,Text,93,Passed
+PROD-024,Auxiliary Contacts,378,DOC-PROD-024,2,Technical Data,The maximum auxiliary contacts is rated at 378 Unit.,Text,81,Passed
+PROD-025,Supply Voltage,271,DOC-PROD-025,2,Technical Data,The maximum supply voltage is rated at 271 V.,Text,84,Passed
+PROD-025,Number of Inputs,188,DOC-PROD-025,2,Technical Data,The maximum number of inputs is rated at 188 Unit.,Text,80,Passed
+PROD-025,Number of Outputs,227,DOC-PROD-025,3,Technical Data,The maximum number of outputs is rated at 227 Unit.,Text,97,Passed
+PROD-025,Communication Protocol,69,DOC-PROD-025,3,Technical Data,The maximum communication protocol is rated at 69 Unit.,Text,98,Passed
+PROD-026,Supply Voltage,304,DOC-PROD-026,3,Technical Data,The maximum supply voltage is rated at 304 V.,Text,95,Passed
+PROD-026,Number of Inputs,425,DOC-PROD-026,3,Technical Data,The maximum number of inputs is rated at 425 Unit.,Text,89,Passed
+PROD-026,Number of Outputs,222,DOC-PROD-026,3,Technical Data,The maximum number of outputs is rated at 222 Unit.,Text,91,Passed
+PROD-026,Communication Protocol,153,DOC-PROD-026,4,Technical Data,The maximum communication protocol is rated at 153 Unit.,Text,83,Passed
+PROD-027,Supply Voltage,235,DOC-PROD-027,2,Technical Data,The maximum supply voltage is rated at 235 V.,Text,90,Passed
+PROD-027,Number of Inputs,366,DOC-PROD-027,3,Technical Data,The maximum number of inputs is rated at 366 Unit.,Text,97,Passed
+PROD-027,Number of Outputs,219,DOC-PROD-027,2,Technical Data,The maximum number of outputs is rated at 219 Unit.,Text,85,Passed
+PROD-027,Communication Protocol,475,DOC-PROD-027,4,Technical Data,The maximum communication protocol is rated at 475 Unit.,Text,94,Passed
+PROD-028,Input Voltage,189,DOC-PROD-028,3,Technical Data,The maximum input voltage is rated at 189 V.,Text,89,Passed
+PROD-028,Output Voltage,49,DOC-PROD-028,1,Technical Data,The maximum output voltage is rated at 49 V.,Text,85,Passed
+PROD-028,Output Current,457,DOC-PROD-028,2,Technical Data,The maximum output current is rated at 457 A.,Text,95,Passed
+PROD-028,Power Rating,494,DOC-PROD-028,4,Technical Data,The maximum power rating is rated at 494 Unit.,Text,95,Passed
+PROD-029,Input Voltage,396,DOC-PROD-029,4,Technical Data,The maximum input voltage is rated at 396 V.,Text,90,Passed
+PROD-029,Output Voltage,62,DOC-PROD-029,1,Technical Data,The maximum output voltage is rated at 62 V.,Text,90,Passed
+PROD-029,Output Current,495,DOC-PROD-029,2,Technical Data,The maximum output current is rated at 495 A.,Text,100,Passed
+PROD-029,Power Rating,222,DOC-PROD-029,1,Technical Data,The maximum power rating is rated at 222 Unit.,Text,89,Passed
+PROD-030,Input Voltage,336,DOC-PROD-030,1,Technical Data,The maximum input voltage is rated at 336 V.,Text,89,Passed
+PROD-030,Output Voltage,105,DOC-PROD-030,1,Technical Data,The maximum output voltage is rated at 105 V.,Text,86,Passed
+PROD-030,Output Current,181,DOC-PROD-030,2,Technical Data,The maximum output current is rated at 181 A.,Text,93,Passed
+PROD-030,Power Rating,264,DOC-PROD-030,1,Technical Data,The maximum power rating is rated at 264 Unit.,Text,99,Passed
