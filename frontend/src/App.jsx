@@ -7,7 +7,7 @@ import { DashboardPage } from './pages/DashboardPage';
 import { ProductsPage } from './pages/ProductsPage';
 import { ProductDetailsPage } from './pages/ProductDetailsPage';
 import { ScanningPage } from './pages/ScanningPage';
-import { ReviewPage } from './pages/ReviewPage';
+import { ArchitecturePage } from './pages/ArchitecturePage';
 import { KnowledgeGraphPage } from './pages/KnowledgeGraphPage';
 import { AssistantPage } from './pages/AssistantPage';
 import { SettingsPage } from './pages/SettingsPage';
@@ -24,7 +24,7 @@ export default function App() {
             <Route path="products" element={<ProductsPage />} />
             <Route path="products/:id" element={<ProductDetailsPage />} />
             <Route path="scan" element={<ScanningPage />} />
-            <Route path="review" element={<ReviewPage />} />
+            <Route path="architecture" element={<ArchitecturePage />} />
             <Route path="graph" element={<KnowledgeGraphPage />} />
             <Route path="assistant" element={<AssistantPage />} />
             <Route path="settings" element={<SettingsPage />} />

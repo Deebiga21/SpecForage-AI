@@ -8,7 +8,7 @@ export function AppLayout() {
   const location = useLocation();
 
   return (
-    <div className="h-screen w-full flex flex-col font-sans transition-colors duration-300 overflow-hidden bg-slate-50">
+    <div className="h-screen w-full flex flex-col font-sans transition-colors duration-300 overflow-hidden bg-slate-50 dark:bg-slate-800 dark:bg-slate-950">
       
       {/* Navbar flush at the top */}
       <div className="shrink-0 w-full">

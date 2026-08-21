@@ -37,7 +37,7 @@ export function LoginPage() {
   };
 
   return (
-    <div className="h-screen w-screen bg-white dark:bg-slate-900 flex flex-col font-sans transition-colors duration-300 overflow-y-auto overflow-x-hidden relative">
+    <div className="h-screen w-screen bg-white dark:bg-slate-900 dark:bg-slate-900 flex flex-col font-sans transition-colors duration-300 overflow-y-auto overflow-x-hidden relative">
       
       {/* Background gradients */}
       <div className="fixed inset-0 bg-gradient-to-br from-blue-50/50 via-white to-indigo-50/50 dark:from-slate-950 dark:via-slate-900 dark:to-indigo-950/20 -z-10" />
@@ -46,17 +46,17 @@ export function LoginPage() {
       <div className="w-full max-w-[1600px] mx-auto flex flex-col relative flex-1">
         
         {/* Navigation */}
-        <nav className="flex items-center justify-between px-6 md:px-10 py-6 border-b border-slate-100/50 dark:border-slate-800/50">
+        <nav className="flex items-center justify-between px-6 md:px-10 py-6 border-b border-slate-100 dark:border-slate-800/50 dark:border-slate-800/50">
           <div className="flex items-center gap-3">
              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-500/20">
                <Cpu className="w-5 h-5 text-white" />
              </div>
-             <span className="text-xl font-bold font-display tracking-tight text-slate-900 dark:text-white">
+             <span className="text-xl font-bold font-display tracking-tight text-slate-900 dark:text-white dark:text-white">
                SPECForge<span className="text-indigo-600 dark:text-indigo-400">.AI</span>
              </span>
           </div>
           
-          <div className="hidden lg:flex items-center gap-10 text-sm font-semibold text-slate-600 dark:text-slate-300">
+          <div className="hidden lg:flex items-center gap-10 text-sm font-semibold text-slate-600 dark:text-slate-300 dark:text-slate-300">
             <a href="#features" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Features</a>
             <a href="#workflow" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Workflow</a>
             <a href="#security" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Security</a>
@@ -65,7 +65,7 @@ export function LoginPage() {
           <div className="flex items-center gap-3 md:gap-5">
             <button
               onClick={toggleTheme}
-              className="p-2.5 rounded-xl text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+              className="p-2.5 rounded-xl text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:bg-slate-800 transition-colors"
             >
               {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
             </button>
@@ -91,11 +91,11 @@ export function LoginPage() {
               Real-time Processing Visible to Users
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-[4rem] font-bold text-slate-900 dark:text-white leading-[1.1] font-display tracking-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-[4rem] font-bold text-slate-900 dark:text-white dark:text-white leading-[1.1] font-display tracking-tight">
               AI-powered <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">product attribute extraction</span> & ETIM taxonomy mapping
             </h1>
             
-            <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 dark:text-slate-300 max-w-2xl leading-relaxed">
               Transform unstructured industrial datasheets and PDFs into a Trusted Product Intelligence Record. Every field is extracted with exact source evidence, validation, and compliance detection.
             </p>
 
@@ -106,12 +106,12 @@ export function LoginPage() {
               >
                 Start Foraging <ArrowRight className="w-5 h-5" />
               </button>
-              <button className="px-8 py-4 rounded-xl bg-slate-100 dark:bg-slate-800/80 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold text-lg flex items-center justify-center gap-2 transition-all">
+              <button className="px-8 py-4 rounded-xl bg-slate-100 dark:bg-slate-800/80 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 dark:text-slate-200 font-semibold text-lg flex items-center justify-center gap-2 transition-all">
                 View Live Demo
               </button>
             </div>
 
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-3 pt-6 text-sm font-semibold text-slate-600 dark:text-slate-400">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-3 pt-6 text-sm font-semibold text-slate-600 dark:text-slate-300 dark:text-slate-400">
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4.5 h-4.5 text-indigo-500"/> Products matched & deduplicated</div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4.5 h-4.5 text-indigo-500"/> Errors & contradictions flagged</div>
             </div>
@@ -123,9 +123,9 @@ export function LoginPage() {
             <div className="absolute inset-0 bg-gradient-to-tr from-indigo-100 via-blue-50 to-purple-100 dark:from-indigo-900/30 dark:via-blue-900/20 dark:to-purple-900/30 rounded-[2rem] transform rotate-3 scale-[1.02] -z-10" />
             <div className="absolute inset-0 bg-gradient-to-bl from-blue-100 via-transparent to-indigo-50 dark:from-blue-900/30 dark:via-transparent dark:to-indigo-900/20 rounded-[2rem] transform -rotate-2 scale-[1.03] -z-10" />
             
-            <div className="relative bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border border-white dark:border-slate-700/50 rounded-[2rem] shadow-2xl p-6 sm:p-8 lg:p-10 flex flex-col gap-8">
+            <div className="relative bg-white dark:bg-slate-900/80 dark:bg-slate-900/80 backdrop-blur-xl border border-white dark:border-slate-700/50 rounded-[2rem] shadow-2xl p-6 sm:p-8 lg:p-10 flex flex-col gap-8">
               
-              <div className="flex items-center justify-between border-b border-slate-200/60 dark:border-slate-700/60 pb-5">
+              <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-700/60 dark:border-slate-700/60 pb-5">
                  <div className="flex gap-2.5">
                    <div className="w-3.5 h-3.5 rounded-full bg-slate-200 dark:bg-slate-700" />
                    <div className="w-3.5 h-3.5 rounded-full bg-slate-200 dark:bg-slate-700" />
@@ -139,13 +139,13 @@ export function LoginPage() {
                  <motion.div 
                    animate={{ y: [0, -6, 0] }}
                    transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                   className="w-full sm:flex-1 bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-100 dark:border-slate-700 shadow-lg shadow-slate-200/50 dark:shadow-slate-900/50"
+                   className="w-full sm:flex-1 bg-white dark:bg-slate-900 dark:bg-slate-800 rounded-2xl p-5 border border-slate-100 dark:border-slate-800 dark:border-slate-700 shadow-lg shadow-slate-200/50 dark:shadow-slate-900/50"
                  >
                    <div className="flex items-center gap-3 mb-4">
                      <div className="p-2.5 bg-blue-50 dark:bg-blue-500/10 rounded-lg">
                        <FileText className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                      </div>
-                     <div className="text-sm font-semibold text-slate-700 dark:text-slate-300">Datasheet.pdf</div>
+                     <div className="text-sm font-semibold text-slate-700 dark:text-slate-200 dark:text-slate-300">Datasheet.pdf</div>
                    </div>
                    <div className="space-y-2.5">
                      <div className="h-2.5 w-3/4 bg-slate-100 dark:bg-slate-700 rounded-full" />
@@ -161,7 +161,7 @@ export function LoginPage() {
                    <motion.div 
                      animate={{ rotate: 360 }}
                      transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
-                     className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-full bg-white dark:bg-slate-800 border-4 border-indigo-50 dark:border-indigo-900/50 flex items-center justify-center shadow-xl shadow-indigo-500/20"
+                     className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-full bg-white dark:bg-slate-900 dark:bg-slate-800 border-4 border-indigo-50 dark:border-indigo-900/50 flex items-center justify-center shadow-xl shadow-indigo-500/20"
                    >
                      <Cpu className="w-8 h-8 sm:w-10 sm:h-10 text-indigo-600 dark:text-indigo-400" />
                    </motion.div>
@@ -171,13 +171,13 @@ export function LoginPage() {
                  <motion.div 
                    animate={{ y: [0, 6, 0] }}
                    transition={{ repeat: Infinity, duration: 4, ease: "easeInOut", delay: 1 }}
-                   className="w-full sm:flex-1 bg-white dark:bg-slate-800 rounded-2xl p-5 border border-slate-100 dark:border-slate-700 shadow-lg shadow-slate-200/50 dark:shadow-slate-900/50"
+                   className="w-full sm:flex-1 bg-white dark:bg-slate-900 dark:bg-slate-800 rounded-2xl p-5 border border-slate-100 dark:border-slate-800 dark:border-slate-700 shadow-lg shadow-slate-200/50 dark:shadow-slate-900/50"
                  >
                    <div className="flex items-center gap-3 mb-4">
                      <div className="p-2.5 bg-emerald-50 dark:bg-emerald-500/10 rounded-lg">
                        <Database className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
                      </div>
-                     <div className="text-sm font-semibold text-slate-700 dark:text-slate-300">JSON Record</div>
+                     <div className="text-sm font-semibold text-slate-700 dark:text-slate-200 dark:text-slate-300">JSON Record</div>
                    </div>
                    <div className="space-y-3">
                      <div className="flex items-center gap-2">
@@ -212,33 +212,33 @@ export function LoginPage() {
         </div>
 
         {/* Bottom Features Section */}
-        <div className="bg-slate-50 dark:bg-slate-900/50 border-t border-slate-100 dark:border-slate-800 p-8 lg:p-12">
+        <div className="bg-slate-50 dark:bg-slate-800 dark:bg-slate-900/50 border-t border-slate-100 dark:border-slate-800 dark:border-slate-800 p-8 lg:p-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="flex gap-5">
-              <div className="w-14 h-14 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center shrink-0 shadow-md shadow-slate-200/50 dark:shadow-slate-900/50">
+              <div className="w-14 h-14 rounded-2xl bg-white dark:bg-slate-900 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 dark:border-slate-700 flex items-center justify-center shrink-0 shadow-md shadow-slate-200/50 dark:shadow-slate-900/50">
                 <Search className="w-7 h-7 text-blue-600 dark:text-blue-400" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 dark:text-white text-lg">Human Review for Uncertain Info</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400 mt-1.5 leading-relaxed">Workflows designed to elevate low-confidence extractions for manual verification.</p>
+                <h3 className="font-bold text-slate-900 dark:text-white dark:text-white text-lg">Human Review for Uncertain Info</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-300 dark:text-slate-400 mt-1.5 leading-relaxed">Workflows designed to elevate low-confidence extractions for manual verification.</p>
               </div>
             </div>
             <div className="flex gap-5">
-              <div className="w-14 h-14 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center shrink-0 shadow-md shadow-slate-200/50 dark:shadow-slate-900/50">
+              <div className="w-14 h-14 rounded-2xl bg-white dark:bg-slate-900 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 dark:border-slate-700 flex items-center justify-center shrink-0 shadow-md shadow-slate-200/50 dark:shadow-slate-900/50">
                 <Layers className="w-7 h-7 text-emerald-600 dark:text-emerald-400" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 dark:text-white text-lg">Products Matched & Deduplicated</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400 mt-1.5 leading-relaxed">Automatic resolution of duplicate entities across your entire catalog.</p>
+                <h3 className="font-bold text-slate-900 dark:text-white dark:text-white text-lg">Products Matched & Deduplicated</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-300 dark:text-slate-400 mt-1.5 leading-relaxed">Automatic resolution of duplicate entities across your entire catalog.</p>
               </div>
             </div>
             <div className="flex gap-5">
-              <div className="w-14 h-14 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center shrink-0 shadow-md shadow-slate-200/50 dark:shadow-slate-900/50">
+              <div className="w-14 h-14 rounded-2xl bg-white dark:bg-slate-900 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 dark:border-slate-700 flex items-center justify-center shrink-0 shadow-md shadow-slate-200/50 dark:shadow-slate-900/50">
                 <Fingerprint className="w-7 h-7 text-indigo-600 dark:text-indigo-400" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 dark:text-white text-lg">Validation & Compliance Evidence</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400 mt-1.5 leading-relaxed">Every field links back to source evidence for full auditability.</p>
+                <h3 className="font-bold text-slate-900 dark:text-white dark:text-white text-lg">Validation & Compliance Evidence</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-300 dark:text-slate-400 mt-1.5 leading-relaxed">Every field links back to source evidence for full auditability.</p>
               </div>
             </div>
           </div>
@@ -258,12 +258,12 @@ export function LoginPage() {
               initial={{ scale: 0.95, opacity: 0, y: 20 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.95, opacity: 0, y: 20 }}
-              className="relative w-full max-w-md p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-indigo-500/30 shadow-2xl"
+              className="relative w-full max-w-md p-8 rounded-3xl bg-white dark:bg-slate-900 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 dark:border-indigo-500/30 shadow-2xl"
             >
               {/* Close button */}
               <button 
                 onClick={() => setShowLoginModal(false)}
-                className="absolute top-5 right-5 p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors"
+                className="absolute top-5 right-5 p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:bg-slate-800 text-slate-400 hover:text-slate-600 dark:text-slate-300 dark:hover:text-slate-200 transition-colors"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -279,12 +279,12 @@ export function LoginPage() {
                       SpecForge<span className="text-indigo-600 dark:text-indigo-400">.AI</span>
                     </>
                   }
-                  className="text-2xl font-bold font-display tracking-tight text-slate-900 dark:text-white"
+                  className="text-2xl font-bold font-display tracking-tight text-slate-900 dark:text-white dark:text-white"
                   delay={50}
                   duration={1.25}
                   tag="h2"
                 />
-                <p className="text-xs text-slate-500 dark:text-indigo-300/80 font-mono mt-1">
+                <p className="text-xs text-slate-500 dark:text-slate-400 dark:text-indigo-300/80 font-mono mt-1">
                   Product Intelligence, Verified.
                 </p>
               </div>
@@ -297,7 +297,7 @@ export function LoginPage() {
                   </div>
                 )}
                 <div>
-                  <label className="block text-xs font-semibold text-slate-600 dark:text-slate-300 mb-1.5 font-mono">
+                  <label className="block text-xs font-semibold text-slate-600 dark:text-slate-300 dark:text-slate-300 mb-1.5 font-mono">
                     Work Email Address
                   </label>
                   <div className="relative">
@@ -307,13 +307,13 @@ export function LoginPage() {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="w-full py-2.5 pl-10 pr-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700/60 text-sm text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all font-sans"
+                      className="w-full py-2.5 pl-10 pr-4 rounded-xl bg-slate-50 dark:bg-slate-800 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700 dark:border-slate-700/60 text-sm text-slate-900 dark:text-white dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all font-sans"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-600 dark:text-slate-300 mb-1.5 font-mono">
+                  <label className="block text-xs font-semibold text-slate-600 dark:text-slate-300 dark:text-slate-300 mb-1.5 font-mono">
                     Password
                   </label>
                   <div className="relative">
@@ -323,7 +323,7 @@ export function LoginPage() {
                       required
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      className="w-full py-2.5 pl-10 pr-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700/60 text-sm text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all font-sans"
+                      className="w-full py-2.5 pl-10 pr-4 rounded-xl bg-slate-50 dark:bg-slate-800 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700 dark:border-slate-700/60 text-sm text-slate-900 dark:text-white dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all font-sans"
                     />
                   </div>
                 </div>
@@ -351,10 +351,10 @@ export function LoginPage() {
               </form>
 
               {/* Mock SSO Option */}
-              <div className="mt-6 pt-6 border-t border-slate-100 dark:border-slate-800/80">
+              <div className="mt-6 pt-6 border-t border-slate-100 dark:border-slate-800 dark:border-slate-800/80">
                 <button
                   onClick={() => handleLogin({ preventDefault: () => {} })}
-                  className="w-full py-2.5 px-4 rounded-xl bg-slate-50 hover:bg-slate-100 dark:bg-slate-900/50 dark:hover:bg-slate-800/60 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 text-xs font-bold flex items-center justify-center gap-2 transition-colors"
+                  className="w-full py-2.5 px-4 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 dark:bg-slate-900/50 dark:hover:bg-slate-800/60 border border-slate-200 dark:border-slate-700 dark:border-slate-800 text-slate-600 dark:text-slate-300 dark:text-slate-300 text-xs font-bold flex items-center justify-center gap-2 transition-colors"
                 >
                   <Shield className="w-4 h-4 text-indigo-500 dark:text-indigo-400" />
                   <span>Continue with Enterprise SSO</span>
@@ -362,7 +362,7 @@ export function LoginPage() {
               </div>
 
               {/* Security Badge */}
-              <div className="mt-6 flex items-center justify-center gap-1.5 text-[11px] font-mono text-slate-500">
+              <div className="mt-6 flex items-center justify-center gap-1.5 text-[11px] font-mono text-slate-500 dark:text-slate-400">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 dark:text-emerald-400" />
                 <span>SOC2 Type II & ISO 27001 Certified Environment</span>
               </div>
