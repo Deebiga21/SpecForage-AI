@@ -30,9 +30,8 @@ def do_extract_text_wrapper(filepath: str):
         "page_count": data["page_count"]
     }
 
-import ollama
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+@retry(stop=stop_after_attempt(10), wait=wait_exponential(multiplier=2, min=5, max=65))
 def do_llm_extract(text_content: str):
     prompt = f"""
     You are an expert AI extraction agent for technical specification documents.
@@ -47,12 +46,24 @@ def do_llm_extract(text_content: str):
     {text_content}
     """
     
-    response = ollama.chat(
-        model='llama3.1',
-        messages=[{'role': 'user', 'content': prompt}],
-        format=ProductData.model_json_schema(),
-        options={'temperature': 0.0}
+    from google import genai
+    from google.genai import types
+    import os
+    import json
+    from schemas import ProductData
+    
+    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+    
+    response = client.models.generate_content(
+        model="gemini-3.6-flash",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            response_mime_type="application/json",
+            response_schema=ProductData,
+            temperature=0.0
+        )
     )
     
-    product_data = ProductData.model_validate_json(response['message']['content'])
+    content = response.text
+    product_data = ProductData.model_validate_json(content)
     return product_data

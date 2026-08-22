@@ -2,8 +2,9 @@ import { useEffect, useState, useRef } from 'react';
 
 // Use standard relative path for api since we're serving from same host via proxy or directly
 export const API_BASE_URL = "/api";
+const protocol = typeof window !== 'undefined' && window.location.protocol === 'https:' ? 'wss:' : 'ws:';
 export const WS_BASE_URL = typeof window !== 'undefined' 
-  ? `ws://${window.location.host}/api` 
+  ? `${protocol}//${window.location.host}/api` 
   : "ws://localhost:8000/api";
 
 // --- HOOKS ---

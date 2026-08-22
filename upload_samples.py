@@ -17,7 +17,7 @@ def upload_files():
                     "http://localhost:8000/api/upload",
                     files={"file": (os.path.basename(filepath), f, "application/pdf")}
                 )
-                print(f"Response: {response.status_code}")
+                print(f"Response: {response.status_code}"); print("Sleeping 15 seconds to respect API rate limits..."); time.sleep(15)
             except Exception as e:
                 print(f"Error: {e}")
                 

@@ -444,23 +444,25 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
                 
         system_instruction = f"You are SPECForge AI Assistant, interacting with a product spec database. Answer truthfully based on this data. You are also an expert in general industry knowledge. When explaining data processes, relationships, or complex topics, ALWAYS provide a Mermaid.js flowchart (using ```mermaid ... ``` block) to visually represent the flow map of the processed data or concepts.\n\n{db_context}"
         
-        ollama_messages = [{"role": "system", "content": system_instruction}]
+        # Import genai
+        from google import genai
+        import os
         
-        for msg in request.messages[-5:]: # Keep only last 5 messages to save context length
-            role = "user" if msg.role == "user" else "assistant"
-            ollama_messages.append({"role": role, "content": msg.content})
+        # Build prompt from messages
+        prompt = system_instruction + "\n\n"
+        for msg in request.messages[-5:]:
+            role_str = "User: " if msg.role == "user" else "Assistant: "
+            prompt += role_str + msg.content + "\n\n"
             
-        payload = {
-            "model": "llama3.1:latest",
-            "messages": ollama_messages,
-            "stream": False
-        }
+        client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
         
-        async with httpx.AsyncClient(timeout=120.0) as client:
-            response = await client.post("http://localhost:11434/api/chat", json=payload)
-            response.raise_for_status()
-            
-        ai_response = response.json()["message"]["content"]
+        # Use gemini-3.6-flash which is standard and fast
+        genai_response = client.models.generate_content(
+            model='gemini-3.6-flash',
+            contents=prompt
+        )
+        
+        ai_response = genai_response.text
         
         # Save model msg
         db.add(ChatHistory(role="model", content=ai_response))
@@ -470,7 +472,10 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     except Exception as e:
         import traceback
         traceback.print_exc()
-        return {"response": f"Error communicating with local model: {str(e)}"}
+        error_msg = str(e)
+        if "RESOURCE_EXHAUSTED" in error_msg:
+            return {"response": "Error: Gemini API rate limit exceeded. Please wait a moment and try again."}
+        return {"response": f"Error communicating with AI model: {error_msg}"}
 
 @app.get("/api/system/health")
 async def get_health():
