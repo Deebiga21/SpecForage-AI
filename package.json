@@ -4,6 +4,6 @@
     "vite": "^5.0.0"
   },
   "scripts": {
-    "build": "cd frontend && npm install && npm run build && cd .. && mkdir -p dist && cp -r frontend/dist/* dist/"
+    "build": "cd frontend && npm install && npm run build && cd .. && cp -r frontend/dist/* ."
   }
 }
