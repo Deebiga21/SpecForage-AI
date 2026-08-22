@@ -1,1 +1,9 @@
-{"scripts": {"vercel-build": "cd frontend && npm install && npm run build && cd .. && mkdir -p public && cp -r frontend/dist/* public/"}}
+{
+  "name": "specforage-ai",
+  "dependencies": {
+    "vite": "^5.0.0"
+  },
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd .. && mkdir -p dist && cp -r frontend/dist/* dist/"
+  }
+}
