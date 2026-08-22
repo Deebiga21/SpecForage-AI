@@ -412,7 +412,7 @@ async def get_chat_history(db: Session = Depends(get_db)):
 @app.post("/api/chat")
 async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     try:
-        import google.generativeai as genai
+        import httpx
         
         user_msg = request.messages[-1].content
         
@@ -444,24 +444,23 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
                 
         system_instruction = f"You are SPECForge AI Assistant, interacting with a product spec database. Answer truthfully based on this data. You are also an expert in general industry knowledge. When explaining data processes, relationships, or complex topics, ALWAYS provide a Mermaid.js flowchart (using ```mermaid ... ``` block) to visually represent the flow map of the processed data or concepts.\n\n{db_context}"
         
-        # Configure Gemini
-        genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+        ollama_messages = [{"role": "system", "content": system_instruction}]
         
-        # For Gemini, system instructions are set on the model
-        model = genai.GenerativeModel(
-            model_name="gemini-2.5-flash", # Fast, free tier model
-            system_instruction=system_instruction
-        )
-        
-        # Convert previous messages to Gemini format (user -> user, assistant -> model)
-        gemini_messages = []
-        for msg in request.messages[-5:-1]: # Exclude the current user msg
-            role = "user" if msg.role == "user" else "model"
-            gemini_messages.append({"role": role, "parts": [msg.content]})
+        for msg in request.messages[-5:]: # Keep only last 5 messages to save context length
+            role = "user" if msg.role == "user" else "assistant"
+            ollama_messages.append({"role": role, "content": msg.content})
             
-        chat_session = model.start_chat(history=gemini_messages)
-        response = chat_session.send_message(user_msg)
-        ai_response = response.text
+        payload = {
+            "model": "llama3.1:latest",
+            "messages": ollama_messages,
+            "stream": False
+        }
+        
+        async with httpx.AsyncClient(timeout=120.0) as client:
+            response = await client.post("http://localhost:11434/api/chat", json=payload)
+            response.raise_for_status()
+            
+        ai_response = response.json()["message"]["content"]
         
         # Save model msg
         db.add(ChatHistory(role="model", content=ai_response))
@@ -471,7 +470,7 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     except Exception as e:
         import traceback
         traceback.print_exc()
-        return {"response": f"Error communicating with cloud model: {str(e)}"}
+        return {"response": f"Error communicating with local model: {str(e)}"}
 
 @app.get("/api/system/health")
 async def get_health():
