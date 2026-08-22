@@ -1,17 +1,11 @@
 import { useEffect, useState, useRef } from 'react';
 
 // Use standard relative path for api since we're serving from same host via proxy or directly
-export const API_BASE_URL = typeof window !== 'undefined' && localStorage.getItem('SPECFORGE_API_URL') 
-  ? localStorage.getItem('SPECFORGE_API_URL') 
-  : (import.meta.env.VITE_API_URL || "/api");
+export const API_BASE_URL = "https://scanners-victory-africa-trustee.trycloudflare.com/api";
 
-const protocol = typeof window !== 'undefined' && window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+const protocol = "wss:";
 
-export const WS_BASE_URL = typeof window !== 'undefined' && localStorage.getItem('SPECFORGE_API_URL')
-  ? localStorage.getItem('SPECFORGE_API_URL').replace('http://', 'ws://').replace('https://', 'wss://')
-  : (typeof window !== 'undefined' 
-      ? `${protocol}//${window.location.host}/api` 
-      : "ws://localhost:8000/api");
+export const WS_BASE_URL = "wss://scanners-victory-africa-trustee.trycloudflare.com/api";
 
 // --- HOOKS ---
 
