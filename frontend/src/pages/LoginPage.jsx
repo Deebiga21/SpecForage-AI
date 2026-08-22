@@ -389,6 +389,24 @@ export function LoginPage() {
                 </button>
               </div>
 
+              <div className="mt-4 pt-4 border-t border-slate-800/60">
+                <button
+                  type="button"
+                  onClick={() => {
+                    const currentUrl = localStorage.getItem('SPECFORGE_API_URL') || '';
+                    const url = prompt('Enter Backend API URL (e.g., https://your-tunnel.pinggy.link/api):', currentUrl);
+                    if (url !== null) {
+                      localStorage.setItem('SPECFORGE_API_URL', url.trim());
+                      window.location.reload();
+                    }
+                  }}
+                  className="w-full py-2.5 px-4 rounded-xl bg-slate-800/50 hover:bg-slate-700/60 border border-slate-700 text-slate-300 text-xs font-bold flex items-center justify-center gap-2 transition-colors"
+                >
+                  <Shield className="w-4 h-4 text-blue-400 dark:text-blue-300" />
+                  <span>Configure Local Backend URL</span>
+                </button>
+              </div>
+
               {/* Security Badge */}
               <div className="mt-6 flex items-center justify-center gap-1.5 text-[11px] font-mono text-slate-500">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 dark:text-emerald-400" />
