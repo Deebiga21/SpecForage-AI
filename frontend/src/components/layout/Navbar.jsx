@@ -47,8 +47,6 @@ export function Navbar() {
           { name: 'Dashboard', path: '/app/dashboard' },
           { name: 'Products', path: '/app/products' },
           { name: 'Insights', path: '/app/insights' },
-          { name: 'Review', path: '/app/review' },
-          { name: 'Graph', path: '/app/graph' },
           { name: 'Assistant', path: '/app/assistant' },
           { name: 'Settings', path: '/app/settings' },
         ].map(item => (

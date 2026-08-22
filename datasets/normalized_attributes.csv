@@ -1,0 +1,101 @@
+product_id,attribute,original_value,original_unit,normalized_value,normalized_unit,conversion_applied,normalization_status,confidence
+PROD-01,Rated Voltage,376 V,V,376,V,None,PASSED,99
+PROD-01,Rated Current,372 A,A,372,A,None,PASSED,99
+PROD-01,Breaking Capacity,201 kA,kA,201,kA,None,PASSED,99
+PROD-01,Poles,16 Count,Count,16,Count,None,PASSED,99
+PROD-01,Weight,454 kg,kg,454,kg,None,PASSED,99
+PROD-02,Rated Voltage,279 V,V,279,V,None,PASSED,99
+PROD-02,Rated Current,75 A,A,75,A,None,PASSED,99
+PROD-02,Breaking Capacity,10 kA,kA,10,kA,None,PASSED,99
+PROD-02,Poles,138 Count,Count,138,Count,None,PASSED,99
+PROD-02,Weight,27 kg,kg,27,kg,None,PASSED,99
+PROD-03,Rated Current,347 A,A,347,A,None,PASSED,99
+PROD-03,Poles,120 Count,Count,120,Count,None,PASSED,99
+PROD-03,Weight,207 kg,kg,207,kg,None,PASSED,99
+PROD-04,Rated Voltage,35 V,V,35,V,None,PASSED,99
+PROD-04,Rated Current,54 A,A,54,A,None,PASSED,99
+PROD-04,Cross Section,23 mm²,mm²,23,mm²,None,PASSED,99
+PROD-04,Mounting Type,188 String,String,188,String,None,PASSED,99
+PROD-05,Rated Voltage,41 V,V,41,V,None,PASSED,99
+PROD-05,Rated Current,73 A,A,73,A,None,PASSED,99
+PROD-05,Cross Section,488 mm²,mm²,488,mm²,None,PASSED,99
+PROD-05,Mounting Type,307 String,String,307,String,None,PASSED,99
+PROD-06,Rated Voltage,145 V,V,145,V,None,PASSED,99
+PROD-06,Rated Current,159 A,A,159,A,None,PASSED,99
+PROD-06,Cross Section,172 mm²,mm²,172,mm²,None,PASSED,99
+PROD-06,Mounting Type,442 String,String,442,String,None,PASSED,99
+PROD-07,Coil Voltage,364 V,V,364,V,None,PASSED,99
+PROD-07,Rated Current,141 A,A,141,A,None,PASSED,99
+PROD-07,Poles,176 Count,Count,176,Count,None,PASSED,99
+PROD-08,Coil Voltage,14 V,V,14,V,None,PASSED,99
+PROD-08,Rated Current,482 A,A,482,A,None,PASSED,99
+PROD-08,Poles,12 Count,Count,12,Count,None,PASSED,99
+PROD-09,Coil Voltage,164 V,V,164,V,None,PASSED,99
+PROD-09,Rated Current,168 A,A,168,A,None,PASSED,99
+PROD-09,Poles,12 Count,Count,12,Count,None,PASSED,99
+PROD-10,Coil Voltage,299 V,V,299,V,None,PASSED,99
+PROD-10,Contact Rating,419 A,A,419,A,None,PASSED,99
+PROD-10,Configuration,136 String,String,136,String,None,PASSED,99
+PROD-11,Coil Voltage,281 V,V,281,V,None,PASSED,99
+PROD-11,Contact Rating,280 A,A,280,A,None,PASSED,99
+PROD-11,Configuration,446 String,String,446,String,None,PASSED,99
+PROD-12,Coil Voltage,318 V,V,318,V,None,PASSED,99
+PROD-12,Contact Rating,137 A,A,137,A,None,PASSED,99
+PROD-12,Configuration,34 String,String,34,String,None,PASSED,99
+PROD-13,Coil Voltage,185 V,V,185,V,None,PASSED,99
+PROD-13,Contact Rating,488 A,A,488,A,None,PASSED,99
+PROD-13,Configuration,371 String,String,371,String,None,PASSED,99
+PROD-14,Sensing Range,252 mm,mm,252,mm,None,PASSED,99
+PROD-14,Output Type,52 String,String,52,String,None,PASSED,99
+PROD-14,IP Rating,138 String,String,138,String,None,PASSED,99
+PROD-15,Output Type,44 String,String,44,String,None,PASSED,99
+PROD-15,IP Rating,443 String,String,443,String,None,PASSED,99
+PROD-16,Temperature Range,104 °C,°C,104,°C,None,PASSED,99
+PROD-16,Sensor Type,201 String,String,201,String,None,PASSED,99
+PROD-16,Accuracy,144 %,%,144,%,None,PASSED,99
+PROD-17,Temperature Range,192 °C,°C,192,°C,None,PASSED,99
+PROD-17,Sensor Type,51 String,String,51,String,None,PASSED,99
+PROD-17,Accuracy,68 %,%,68,%,None,PASSED,99
+PROD-18,Temperature Range,224 °C,°C,224,°C,None,PASSED,99
+PROD-18,Sensor Type,304 String,String,304,String,None,PASSED,99
+PROD-18,Accuracy,224 %,%,224,%,None,PASSED,99
+PROD-19,Pressure Range,443 bar,bar,443,bar,None,PASSED,99
+PROD-19,Output Signal,339 mA,mA,339,mA,None,PASSED,99
+PROD-19,Connection,187 String,String,187,String,None,PASSED,99
+PROD-20,Pressure Range,149 bar,bar,149,bar,None,PASSED,99
+PROD-20,Output Signal,438 mA,mA,438,mA,None,PASSED,99
+PROD-20,Connection,92 String,String,92,String,None,PASSED,99
+PROD-21,Rated Voltage,294 V,V,294,V,None,PASSED,99
+PROD-21,Rated Current,201 A,A,201,A,None,PASSED,99
+PROD-21,Pins,80 Count,Count,80,Count,None,PASSED,99
+PROD-21,IP Rating,32 String,String,32,String,None,PASSED,99
+PROD-22,Rated Voltage,470 V,V,470,V,None,PASSED,99
+PROD-22,Rated Current,452 A,A,452,A,None,PASSED,99
+PROD-22,Pins,300 Count,Count,300,Count,None,PASSED,99
+PROD-22,IP Rating,324 String,String,324,String,None,PASSED,99
+PROD-23,Contact Config,253 String,String,253,String,None,PASSED,99
+PROD-23,Rated Voltage,156 V,V,156,V,None,PASSED,99
+PROD-23,IP Rating,303 String,String,303,String,None,PASSED,99
+PROD-24,IP Rating,257 String,String,257,String,None,PASSED,99
+PROD-25,Contact Config,221 String,String,221,String,None,PASSED,99
+PROD-25,Rated Voltage,133 V,V,133,V,None,PASSED,99
+PROD-25,IP Rating,133 String,String,133,String,None,PASSED,99
+PROD-26,Input Voltage,37 V,V,37,V,None,PASSED,99
+PROD-26,Output Voltage,83 V,V,83,V,None,PASSED,99
+PROD-26,Output Current,216 A,A,216,A,None,PASSED,99
+PROD-27,Input Voltage,387 V,V,387,V,None,PASSED,99
+PROD-27,Output Voltage,48 V,V,48,V,None,PASSED,99
+PROD-27,Output Current,107 A,A,107,A,None,PASSED,99
+PROD-28,Input Voltage,352 V,V,352,V,None,PASSED,99
+PROD-28,Output Voltage,23 V,V,23,V,None,PASSED,99
+PROD-28,Output Current,237 A,A,237,A,None,PASSED,99
+PROD-29,Rated Voltage,132 V,V,132,V,None,PASSED,99
+PROD-29,Rated Current,100 A,A,100,A,None,PASSED,99
+PROD-29,Breaking Capacity,408 kA,kA,408,kA,None,PASSED,99
+PROD-29,Poles,428 Count,Count,428,Count,None,PASSED,99
+PROD-29,Weight,134 kg,kg,134,kg,None,PASSED,99
+PROD-30,Rated Voltage,38 V,V,38,V,None,PASSED,99
+PROD-30,Rated Current,164 A,A,164,A,None,PASSED,99
+PROD-30,Breaking Capacity,454 kA,kA,454,kA,None,PASSED,99
+PROD-30,Poles,288 Count,Count,288,Count,None,PASSED,99
+PROD-30,Weight,206 kg,kg,206,kg,None,PASSED,99

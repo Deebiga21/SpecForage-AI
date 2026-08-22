@@ -420,19 +420,33 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
         db.add(ChatHistory(role="user", content=user_msg))
         db.commit()
         
-        # Construct DB Context String
+        # Construct DB Context String using basic RAG (filter by mentioning)
         products = db.query(Product).all()
-        db_context = "DATABASE CONTENT:\n"
+        relevant_products = []
         for p in products:
-            attrs = db.query(ProductAttribute).filter(ProductAttribute.product_id == p.id).all()
-            attr_str = ", ".join([f"{a.field}: {a.value} {a.unit or ''}" for a in attrs])
-            db_context += f"Product: {p.product_name} (SKU: {p.sku}), Category: {p.category}, Confidence: {p.confidence}, Status: {p.validation_status}\n  Attributes: {attr_str}\n\n"
-            
-        system_instruction = f"You are SPECForge AI Assistant, interacting with a product spec database. Answer truthfully based on this data. You are also an expert in general industry knowledge (manufacturing, hardware, industrial tech). When explaining data processes, relationships, or complex topics, ALWAYS provide a Mermaid.js flowchart (using \\mermaid ... \\ block) to visually represent the flow map of the processed data or concepts.\n\n{db_context}"
+            if p.sku.lower() in user_msg.lower() or p.product_name.lower() in user_msg.lower() or p.category.lower() in user_msg.lower():
+                relevant_products.append(p)
+                
+        # If no specific match, just use the first few as an example or leave empty
+        if not relevant_products:
+            # Maybe just provide a summary of available categories
+            categories = list(set([p.category for p in products]))
+            db_context = f"No specific product mentioned. Available categories: {', '.join(categories)}\n"
+            db_context += "CATALOG ITEMS (Basic):\n"
+            for p in products[:10]: # limit to 10 to avoid huge context
+                db_context += f"- {p.product_name} (SKU: {p.sku})\n"
+        else:
+            db_context = "DATABASE CONTENT FOR RELEVANT PRODUCTS:\n"
+            for p in relevant_products:
+                attrs = db.query(ProductAttribute).filter(ProductAttribute.product_id == p.id).all()
+                attr_str = ", ".join([f"{a.field}: {a.value} {a.unit or ''}" for a in attrs])
+                db_context += f"Product: {p.product_name} (SKU: {p.sku}), Category: {p.category}, Confidence: {p.confidence}%\n  Attributes: {attr_str}\n\n"
+                
+        system_instruction = f"You are SPECForge AI Assistant, interacting with a product spec database. Answer truthfully based on this data. You are also an expert in general industry knowledge. When explaining data processes, relationships, or complex topics, ALWAYS provide a Mermaid.js flowchart (using ```mermaid ... ``` block) to visually represent the flow map of the processed data or concepts.\n\n{db_context}"
         
         ollama_messages = [{"role": "system", "content": system_instruction}]
         
-        for msg in request.messages:
+        for msg in request.messages[-5:]: # Keep only last 5 messages to save context length
             role = "user" if msg.role == "user" else "assistant"
             ollama_messages.append({"role": role, "content": msg.content})
             
@@ -442,7 +456,7 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
             "stream": False
         }
         
-        async with httpx.AsyncClient(timeout=60.0) as client:
+        async with httpx.AsyncClient(timeout=120.0) as client:
             response = await client.post("http://localhost:11434/api/chat", json=payload)
             response.raise_for_status()
             

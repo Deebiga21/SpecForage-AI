@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "EVID-PROD-CB400-RatedVoltage",
+      "label": "Rated Voltage",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB400-RatedCurrent",
+      "label": "Rated Current",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB400-Poles",
+      "label": "Poles",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB400-BreakingCapacity",
+      "label": "Breaking Capacity",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB380-RatedVoltage",
+      "label": "Rated Voltage",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB380-RatedCurrent",
+      "label": "Rated Current",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB380-Poles",
+      "label": "Poles",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB380-BreakingCapacity",
+      "label": "Breaking Capacity",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB410-RatedVoltage",
+      "label": "Rated Voltage",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB410-RatedCurrent",
+      "label": "Rated Current",
+      "type": "EVIDENCE"
+    },
+    {
+      "id": "EVID-PROD-CB410-Poles",
+      "label": "Poles",
+      "type": "EVIDENCE"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-CB400",
+      "target": "EVID-PROD-CB400-RatedVoltage",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB400",
+      "target": "EVID-PROD-CB400-RatedCurrent",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB400",
+      "target": "EVID-PROD-CB400-Poles",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB400",
+      "target": "EVID-PROD-CB400-BreakingCapacity",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB380",
+      "target": "EVID-PROD-CB380-RatedVoltage",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB380",
+      "target": "EVID-PROD-CB380-RatedCurrent",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB380",
+      "target": "EVID-PROD-CB380-Poles",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB380",
+      "target": "EVID-PROD-CB380-BreakingCapacity",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB410",
+      "target": "EVID-PROD-CB410-RatedVoltage",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB410",
+      "target": "EVID-PROD-CB410-RatedCurrent",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "PROD-CB410",
+      "target": "EVID-PROD-CB410-Poles",
+      "type": "HAS_EVIDENCE"
+    }
+  ]
+}

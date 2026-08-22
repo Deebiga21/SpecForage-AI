@@ -1,4 +1,8 @@
-review_id,product_id,field_name,issue_type,current_value,reason,priority,review_status,reviewer_comment,recommended_action
-REV-PROD-002-1,PROD-002,Rated Voltage,Conflict,335,Values conflict across pages,High,Pending,,Verify with manufacturer
-REV-PROD-008-1,PROD-008,Pressure Range,Conflict,349,Values conflict across pages,High,Pending,,Verify with manufacturer
-REV-PROD-014-1,PROD-014,Rated Voltage,Conflict,343,Values conflict across pages,High,Pending,,Verify with manufacturer
+review_id,product_id,field_name,issue_type,current_value,reason,priority,source_page,confidence,review_status,recommended_action,reviewer_comment
+REV-PROD-03-Rated Voltage,PROD-03,Rated Voltage,MISSING,,Expected but not found,HIGH,,0,Pending,Request updated datasheet,
+REV-PROD-03-Breaking Capacity,PROD-03,Breaking Capacity,MISSING,,Expected but not found,HIGH,,0,Pending,Request updated datasheet,
+REV-PROD-06-TAX,PROD-06,Taxonomy,TAXONOMY_UNCERTAIN,EC000001,Low confidence classification,MEDIUM,N/A,65,Pending,Manual classification,
+REV-PROD-15-Sensing Range,PROD-15,Sensing Range,MISSING,,Expected but not found,HIGH,,0,Pending,Request updated datasheet,
+REV-PROD-17-TAX,PROD-17,Taxonomy,TAXONOMY_UNCERTAIN,EC000001,Low confidence classification,MEDIUM,N/A,65,Pending,Manual classification,
+REV-PROD-24-Contact Config,PROD-24,Contact Config,MISSING,,Expected but not found,HIGH,,0,Pending,Request updated datasheet,
+REV-PROD-24-Rated Voltage,PROD-24,Rated Voltage,MISSING,,Expected but not found,MEDIUM,,0,Pending,Request updated datasheet,

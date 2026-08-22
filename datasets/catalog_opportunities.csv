@@ -1,0 +1,3 @@
+opportunity_id,category,attribute_name,affected_product_count,total_products,missing_percentage,business_impact,priority,recommendation
+OPP-1,Circuit Breakers,Breaking Capacity,2,4,50.0,HIGH,1,Enrich breaking-capacity data across the circuit-breaker catalog.
+OPP-2,Terminal Blocks,Mounting Type,2,3,66.6,MEDIUM,2,Add mounting type details.

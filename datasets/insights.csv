@@ -1,5 +1,16 @@
-insight_id,product_id,insight_type,severity,title,description,affected_attribute,evidence,recommended_action,confidence
-INS-1,PROD-003,DATA_GAP,High,Missing Specifications,3 critical specifications are missing.,Multiple,Not found in PDF,Review datasheet,100
-INS-2,PROD-017,DUPLICATE_RISK,Medium,Possible Duplicate,PROD-017 has 96% similarity with PROD-018.,Product,Similar SKU and specs,Merge records,96
-INS-3,PROD-002,CONFLICT_RISK,High,Conflicting Values,Voltage information conflicts between pages.,Rated Voltage,Page 1 vs Page 2,Manual Verification,99
-INS-4,PROD-015,COMPLIANCE_GAP,High,Missing UL Certification,UL certification evidence was not found.,UL,No matches found,Request updated certificate,100
+insight_id,product_id,insight_type,title,description,severity,affected_attribute,evidence,confidence,recommended_action,status,created_at
+INS-PROD-03-GAP,PROD-03,DATA_GAP,2 critical specifications are missing,Important fields were not found in the available product documentation.,HIGH,Multiple,Pages 1-8,100,Obtain missing specifications from the manufacturer.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-05-COMP,PROD-05,COMPLIANCE,Missing RoHS Evidence,No explicit RoHS declaration found in the document.,HIGH,RoHS,Pages 1-8,100,Request manufacturer declaration.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-08-DUP,PROD-08,DUPLICATE,Possible Duplicate of PROD-07,PROD-08 appears 92.5% similar to PROD-07.,MEDIUM,Product,Attribute comparison,92,Merge or link records.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-09-GAP,PROD-09,DATA_GAP,0 critical specifications are missing,Important fields were not found in the available product documentation.,MEDIUM,Multiple,Pages 1-8,100,Obtain missing specifications from the manufacturer.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-11-CONF,PROD-11,RISK,Specification Conflict: Coil Voltage,Found 281V on page 2 and 331V on page 5.,CRITICAL,Coil Voltage,Pages 2 and 5,95,Verify against latest datasheet.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-13-REP,PROD-12,REPLACEMENT,Replaced by PROD-13,PROD-13 is the newer replacement for PROD-12.,INFO,Product,Manufacturer catalog,99,Recommend PROD-13 for new designs.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-15-GAP,PROD-15,DATA_GAP,1 critical specifications are missing,Important fields were not found in the available product documentation.,HIGH,Multiple,Pages 1-8,100,Obtain missing specifications from the manufacturer.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-18-COMP,PROD-18,COMPLIANCE,Missing RoHS Evidence,No explicit RoHS declaration found in the document.,HIGH,RoHS,Pages 1-8,100,Request manufacturer declaration.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-20-CONF,PROD-20,RISK,Specification Conflict: Pressure Range,Found 149bar on page 2 and 199bar on page 5.,CRITICAL,Pressure Range,Pages 2 and 5,95,Verify against latest datasheet.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-22-DUP,PROD-22,DUPLICATE,Possible Duplicate of PROD-21,PROD-22 appears 92.5% similar to PROD-21.,MEDIUM,Product,Attribute comparison,92,Merge or link records.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-24-GAP,PROD-24,DATA_GAP,2 critical specifications are missing,Important fields were not found in the available product documentation.,HIGH,Multiple,Pages 1-8,100,Obtain missing specifications from the manufacturer.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-25-COMP,PROD-25,COMPLIANCE,Missing RoHS Evidence,No explicit RoHS declaration found in the document.,HIGH,RoHS,Pages 1-8,100,Request manufacturer declaration.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-28-REP,PROD-27,REPLACEMENT,Replaced by PROD-28,PROD-28 is the newer replacement for PROD-27.,INFO,Product,Manufacturer catalog,99,Recommend PROD-28 for new designs.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-29-CONF,PROD-29,RISK,Specification Conflict: Rated Voltage,Found 132V on page 2 and 182V on page 5.,CRITICAL,Rated Voltage,Pages 2 and 5,95,Verify against latest datasheet.,OPEN,2026-08-22T08:25:42.660125
+INS-PROD-30-DUP,PROD-30,DUPLICATE,Possible Duplicate of PROD-01,PROD-30 appears 92.5% similar to PROD-01.,MEDIUM,Product,Attribute comparison,92,Merge or link records.,OPEN,2026-08-22T08:25:42.660125

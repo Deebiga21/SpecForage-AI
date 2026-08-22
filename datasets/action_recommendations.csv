@@ -1,0 +1,3 @@
+product_id,priority,issue,impact,effort,recommended_action
+PROD-CB410,Priority 1,Resolve specification conflict,HIGH,LOW,Manual review of page 4 vs page 7.
+PROD-CB410,Priority 2,Complete missing critical specifications,HIGH,MEDIUM,Contact manufacturer for Breaking Capacity.

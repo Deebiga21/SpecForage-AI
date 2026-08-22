@@ -1,0 +1,2 @@
+event_id,product_id,type,title,stage,importance,explanation,recommended_action
+EV-1,PROD-CB410,CONFLICT,Rated Voltage Conflict,VALIDATION,HIGH,Detected 500V on page 4 and 600V on page 7.,Verify against the latest manufacturer revision.

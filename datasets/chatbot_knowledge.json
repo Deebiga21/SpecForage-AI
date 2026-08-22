@@ -1,0 +1,119 @@
+{
+  "PROD-CB400": {
+    "product_summary": "Molded Case Circuit Breaker 400A manufactured by Siemens.",
+    "key_facts": [
+      "SKU: CB-400-3P",
+      "Category: Circuit Breakers"
+    ],
+    "important_findings": [],
+    "processing_summary": "Document processed successfully through 12 stages.",
+    "evidence_summary": "Multiple specifications extracted with high confidence from PDF.",
+    "insight_summary": [],
+    "recommended_actions": [],
+    "question_answer_context": [
+      {
+        "Question": "How was the taxonomy selected?",
+        "Answer": "It was classified as ETIM EC000228 (Power circuit-breaker) with 98% confidence because the product type, connection method, and electrical characteristics matched perfectly.",
+        "Evidence": []
+      },
+      {
+        "Question": "Explain the complete processing.",
+        "Answer": "The document was processed through 12 stages successfully. Extraction identified key attributes from Page 4, Validation ensured data consistency, and Taxonomy mapped it to ETIM EC000228.",
+        "Evidence": []
+      }
+    ]
+  },
+  "PROD-CB380": {
+    "product_summary": "Molded Case Circuit Breaker 380A manufactured by Siemens.",
+    "key_facts": [
+      "SKU: CB-380-3P",
+      "Category: Circuit Breakers"
+    ],
+    "important_findings": [],
+    "processing_summary": "Document processed successfully through 12 stages.",
+    "evidence_summary": "Multiple specifications extracted with high confidence from PDF.",
+    "insight_summary": [],
+    "recommended_actions": [],
+    "question_answer_context": [
+      {
+        "Question": "Which product can replace it?",
+        "Answer": "CB-400-3P is the modern replacement. It belongs to the newer product series and provides higher breaking capacity while maintaining the same mounting configuration.",
+        "Evidence": [
+          "INS-REP-1"
+        ]
+      },
+      {
+        "Question": "What compliance evidence is missing?",
+        "Answer": "The RoHS declaration is missing. Pages 1-12 were checked but no explicit declaration was found. You should request the manufacturer's RoHS declaration.",
+        "Evidence": []
+      },
+      {
+        "Question": "How was the taxonomy selected?",
+        "Answer": "It was classified as ETIM EC000228 (Power circuit-breaker) with 98% confidence because the product type, connection method, and electrical characteristics matched perfectly.",
+        "Evidence": []
+      },
+      {
+        "Question": "Explain the complete processing.",
+        "Answer": "The document was processed through 12 stages successfully. Extraction identified key attributes from Page 4, Validation ensured data consistency, and Taxonomy mapped it to ETIM EC000228.",
+        "Evidence": []
+      }
+    ]
+  },
+  "PROD-CB410": {
+    "product_summary": "Molded Case Circuit Breaker 400A (OEM) manufactured by Generic.",
+    "key_facts": [
+      "SKU: CB-410-3P",
+      "Category: Circuit Breakers"
+    ],
+    "important_findings": [
+      "Rated Voltage conflict detected between pages 4 and 7."
+    ],
+    "processing_summary": "Document processed successfully through 12 stages.",
+    "evidence_summary": "Multiple specifications extracted with high confidence from PDF.",
+    "insight_summary": [],
+    "recommended_actions": [],
+    "question_answer_context": [
+      {
+        "Question": "What specifications are missing?",
+        "Answer": "The critical specification 'Breaking Capacity' is missing from the document.",
+        "Evidence": [
+          "INS-GAP-1"
+        ]
+      },
+      {
+        "Question": "Why is this field missing?",
+        "Answer": "We scanned pages 1-12, including the Electrical Characteristics section, but no evidence was found. It appears the generic manufacturer did not provide it.",
+        "Evidence": [
+          "INS-GAP-1"
+        ]
+      },
+      {
+        "Question": "Why is this a duplicate?",
+        "Answer": "It matches CB-400 perfectly on Voltage, Current, and Poles. The only difference is the generic manufacturer, indicating it may be an OEM alternative.",
+        "Evidence": [
+          "INS-DUP-1"
+        ]
+      },
+      {
+        "Question": "What compliance evidence is missing?",
+        "Answer": "The RoHS declaration is missing. Pages 1-12 were checked but no explicit declaration was found. You should request the manufacturer's RoHS declaration.",
+        "Evidence": []
+      },
+      {
+        "Question": "Why is the quality score low?",
+        "Answer": "The overall quality score is 68% (Grade C). This is mainly because 1 critical attribute (Breaking Capacity) is missing, and a specification conflict was detected for Rated Voltage.",
+        "Evidence": []
+      },
+      {
+        "Question": "How was the taxonomy selected?",
+        "Answer": "It was classified as ETIM EC000228 (Power circuit-breaker) with 98% confidence because the product type, connection method, and electrical characteristics matched perfectly.",
+        "Evidence": []
+      },
+      {
+        "Question": "Explain the complete processing.",
+        "Answer": "The document was processed through 12 stages successfully. Extraction identified key attributes from Page 4, Validation ensured data consistency, and Taxonomy mapped it to ETIM EC000228.",
+        "Evidence": []
+      }
+    ]
+  }
+}

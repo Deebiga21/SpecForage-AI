@@ -1,0 +1,4 @@
+conflict_id,product_id,attribute_name,value_a,unit_a,page_a,source_a,value_b,unit_b,page_b,source_b,conflict_type,severity,confidence,resolution_status,recommended_action
+CONF-PROD-11-CoilVoltage,PROD-11,Coil Voltage,281,V,2,Specs,331,V,5,Diagram,VALUE_MISMATCH,CRITICAL,95,OPEN,Verify against manufacturer.
+CONF-PROD-20-PressureRange,PROD-20,Pressure Range,149,bar,2,Specs,199,bar,5,Diagram,VALUE_MISMATCH,CRITICAL,95,OPEN,Verify against manufacturer.
+CONF-PROD-29-RatedVoltage,PROD-29,Rated Voltage,132,V,2,Specs,182,V,5,Diagram,VALUE_MISMATCH,CRITICAL,95,OPEN,Verify against manufacturer.

@@ -1,4 +1,6 @@
-source_product_id,target_product_id,relationship_type,similarity_score,matching_attributes,different_attributes,relationship_confidence
-PROD-017,PROD-018,POSSIBLE_DUPLICATE,96,"Voltage, Current",Guard,95
-PROD-028,PROD-029,POSSIBLE_DUPLICATE,98,"Voltage, Current, Series",SKU Suffix,98
-PROD-001,PROD-002,SIMILAR,85,Type,Current Rating,90
+relationship_id,source_product_id,target_product_id,relationship_type,similarity_score,matching_attributes,different_attributes,reason,confidence,relationship_status
+REL-PROD-08-DUP,PROD-07,PROD-08,POSSIBLE_DUPLICATE,92.5,"Voltage, Current, Category",Manufacturer,High similarity detected.,92,ACTIVE
+REL-PROD-13-REP,PROD-12,PROD-13,REPLACEMENT,88.0,"Dimensions, Voltage","Series, Capacity",Newer series replacing older model.,99,ACTIVE
+REL-PROD-22-DUP,PROD-21,PROD-22,POSSIBLE_DUPLICATE,92.5,"Voltage, Current, Category",Manufacturer,High similarity detected.,92,ACTIVE
+REL-PROD-28-REP,PROD-27,PROD-28,REPLACEMENT,88.0,"Dimensions, Voltage","Series, Capacity",Newer series replacing older model.,99,ACTIVE
+REL-PROD-30-DUP,PROD-01,PROD-30,POSSIBLE_DUPLICATE,92.5,"Voltage, Current, Category",Manufacturer,High similarity detected.,92,ACTIVE
